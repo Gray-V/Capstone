@@ -55,25 +55,22 @@ body {
 .main-title {
     font-family: 'Bangers', cursive;
     font-size: clamp(3rem, 8vw, 7rem);
-    color: var(--light-text);
-    text-shadow:
-        -5px -5px 0px var(--dark-outline),
-        5px -5px 0px var(--dark-outline),
-        -5px 5px 0px var(--dark-outline),
-        5px 5px 0px var(--dark-outline),
-        0px 0px 15px rgba(220, 38, 38, 0.6);
+    color: var(--dark-outline);
+    text-shadow: none;
     transform: rotate(-1deg);
     letter-spacing: 0.1em;
     font-weight: 400;
+    margin: 0;
 }
 
 .subtitle {
     font-family: 'Bangers', cursive;
     font-size: clamp(1rem, 3vw, 2rem);
-    color: var(--light-text);
-    text-shadow: -3px -3px 0px var(--dark-outline), 3px -3px 0px var(--dark-outline), -3px 3px 0px var(--dark-outline), 3px 3px 0px var(--dark-outline);
+    color: var(--dark-outline);
+    text-shadow: none;
     letter-spacing: 0.1em;
     transform: rotate(1deg);
+    margin-top: 0.5rem;
 }
 
 /* Header Styling */
@@ -87,28 +84,38 @@ body {
 .title-burst {
     position: relative;
     display: inline-block;
-    padding: 2.5rem;
-    background: linear-gradient(135deg, var(--primary-red) 0%, var(--explosion-orange) 50%, var(--primary-yellow) 100%);
+    padding: 2.5rem 3rem;
+    background: var(--light-text);
     border: 6px solid var(--dark-outline);
-    border-radius: 25px;
     transform: rotate(-2deg);
-    box-shadow:
-        0 0 0 4px var(--light-text),
-        0 0 0 8px var(--dark-outline),
-        12px 12px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+    clip-path: polygon(
+        0% 20%, 5% 5%, 15% 10%, 25% 0%, 35% 8%, 45% 2%, 55% 12%,
+        65% 5%, 75% 15%, 85% 8%, 95% 18%, 100% 25%, 95% 35%,
+        100% 45%, 92% 55%, 98% 65%, 88% 75%, 95% 85%, 85% 95%,
+        75% 88%, 65% 98%, 55% 85%, 45% 92%, 35% 85%, 25% 95%,
+        15% 88%, 5% 95%, 0% 85%, 8% 75%, 2% 65%, 12% 55%,
+        5% 45%, 15% 35%, 8% 25%
+    );
 }
 
 .title-burst::before {
     content: '';
     position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: repeating-conic-gradient(from 0deg, var(--primary-yellow) 0deg 30deg, var(--primary-red) 30deg 60deg);
-    border-radius: 50% 30% 50% 30%;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    background: var(--dark-outline);
     z-index: -1;
-    opacity: 0.7;
+    clip-path: polygon(
+        0% 20%, 5% 5%, 15% 10%, 25% 0%, 35% 8%, 45% 2%, 55% 12%,
+        65% 5%, 75% 15%, 85% 8%, 95% 18%, 100% 25%, 95% 35%,
+        100% 45%, 92% 55%, 98% 65%, 88% 75%, 95% 85%, 85% 95%,
+        75% 88%, 65% 98%, 55% 85%, 45% 92%, 35% 85%, 25% 95%,
+        15% 88%, 5% 95%, 0% 85%, 8% 75%, 2% 65%, 12% 55%,
+        5% 45%, 15% 35%, 8% 25%
+    );
 }
 
 .speech-bubble {
