@@ -1,16 +1,18 @@
 /* Comic Book / Graphic Novel Styling */
 
 :root {
-    --primary-red: #DC2626;
-    --primary-blue: #2563EB;
-    --primary-yellow: #F59E0B;
-    --dark-outline: #111827;
+    --primary-red: #FF0000;
+    --primary-blue: #0066FF;
+    --primary-yellow: #FFFF00;
+    --primary-green: #0004ff;
+    --primary-purple: #9900FF;
+    --dark-outline: #000000;
     --light-text: #FFFFFF;
     --paper-white: #FFFEF7;
-    --shadow-gray: #374151;
-    --explosion-orange: #EA580C;
-    --readable-text: #1F2937;
-    --accent-bg: #F3F4F6;
+    --shadow-gray: #666666;
+    --explosion-orange: #FF6600;
+    --readable-text: #1A1A1A;
+    --accent-bg: #F0F8FF;
 }
 
 * {
@@ -21,12 +23,16 @@
 
 body {
     font-family: 'Bangers', cursive;
-    background: linear-gradient(45deg, #FFE4B5 25%, transparent 25%),
-                linear-gradient(-45deg, #FFE4B5 25%, transparent 25%),
-                linear-gradient(45deg, transparent 75%, #FFE4B5 75%),
-                linear-gradient(-45deg, transparent 75%, #FFE4B5 75%);
-    background-size: 20px 20px;
-    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255, 0, 0, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 102, 255, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 60% 40%, rgba(255, 255, 0, 0.05) 0%, transparent 50%),
+        linear-gradient(45deg, #FFE4E1 25%, transparent 25%),
+        linear-gradient(-45deg, #FFE4E1 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #FFE4E1 75%),
+        linear-gradient(-45deg, transparent 75%, #FFE4E1 75%);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+    background-position: 0 0, 0 0, 0 0, 0 0, 0 8px, 8px -8px, -8px 0px;
     background-color: var(--paper-white);
     overflow-x: hidden;
 }
@@ -84,38 +90,34 @@ body {
 .title-burst {
     position: relative;
     display: inline-block;
-    padding: 2.5rem 3rem;
-    background: var(--light-text);
-    border: 6px solid var(--dark-outline);
-    transform: rotate(-2deg);
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
-    clip-path: polygon(
-        0% 20%, 5% 5%, 15% 10%, 25% 0%, 35% 8%, 45% 2%, 55% 12%,
-        65% 5%, 75% 15%, 85% 8%, 95% 18%, 100% 25%, 95% 35%,
-        100% 45%, 92% 55%, 98% 65%, 88% 75%, 95% 85%, 85% 95%,
-        75% 88%, 65% 98%, 55% 85%, 45% 92%, 35% 85%, 25% 95%,
-        15% 88%, 5% 95%, 0% 85%, 8% 75%, 2% 65%, 12% 55%,
-        5% 45%, 15% 35%, 8% 25%
-    );
+    padding: 3rem 4rem;
+    background: radial-gradient(circle, var(--light-text) 30%, #F3F4F6 70%, var(--light-text) 100%);
+    border: 8px solid var(--dark-outline);
+    transform: rotate(-1deg);
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.5);
+    overflow: visible;
 }
 
 .title-burst::before {
     content: '';
     position: absolute;
-    top: -8px;
-    left: -8px;
-    right: -8px;
-    bottom: -8px;
-    background: var(--dark-outline);
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    transform: translate(-50%, -50%);
+    background:
+        radial-gradient(2px 100px at 20px 50px, var(--dark-outline), transparent),
+        radial-gradient(2px 120px at 80px 50px, var(--dark-outline), transparent),
+        radial-gradient(1px 150px at 50px 20px, var(--dark-outline), transparent),
+        radial-gradient(1px 140px at 50px 80px, var(--dark-outline), transparent),
+        radial-gradient(2px 110px at 20px 20px, var(--dark-outline), transparent),
+        radial-gradient(2px 130px at 80px 80px, var(--dark-outline), transparent),
+        radial-gradient(1px 160px at 30px 70px, var(--dark-outline), transparent),
+        radial-gradient(1px 170px at 70px 30px, var(--dark-outline), transparent);
+    background-size: 100px 100px;
     z-index: -1;
-    clip-path: polygon(
-        0% 20%, 5% 5%, 15% 10%, 25% 0%, 35% 8%, 45% 2%, 55% 12%,
-        65% 5%, 75% 15%, 85% 8%, 95% 18%, 100% 25%, 95% 35%,
-        100% 45%, 92% 55%, 98% 65%, 88% 75%, 95% 85%, 85% 95%,
-        75% 88%, 65% 98%, 55% 85%, 45% 92%, 35% 85%, 25% 95%,
-        15% 88%, 5% 95%, 0% 85%, 8% 75%, 2% 65%, 12% 55%,
-        5% 45%, 15% 35%, 8% 25%
-    );
+    opacity: 0.15;
 }
 
 .speech-bubble {
@@ -149,15 +151,16 @@ body {
 
 /* Comic Panel Styling */
 .comic-panel {
-    background: var(--paper-white);
-    border: 5px solid var(--dark-outline);
-    border-radius: 15px;
+    background: linear-gradient(135deg, var(--light-text) 0%, var(--accent-bg) 100%);
+    border: 6px solid var(--dark-outline);
+    border-radius: 20px;
     margin: 2rem;
-    padding: 2rem;
+    padding: 2.5rem;
     position: relative;
     box-shadow:
         8px 8px 0px var(--shadow-gray),
-        0 0 0 2px var(--primary-yellow);
+        0 0 0 3px var(--primary-yellow),
+        inset 0 0 20px rgba(255, 255, 0, 0.1);
     transform: rotate(-1deg);
 }
 
@@ -178,17 +181,23 @@ body {
     font-family: 'Bangers', cursive;
     font-size: clamp(2rem, 5vw, 3.5rem);
     color: var(--primary-blue);
-    text-shadow: -3px -3px 0px var(--dark-outline), 3px -3px 0px var(--dark-outline), -3px 3px 0px var(--dark-outline), 3px 3px 0px var(--dark-outline);
+    text-shadow:
+        -3px -3px 0px var(--dark-outline),
+        3px -3px 0px var(--dark-outline),
+        -3px 3px 0px var(--dark-outline),
+        3px 3px 0px var(--dark-outline),
+        0 0 10px rgba(0, 102, 255, 0.3);
     letter-spacing: 0.1em;
     transform: rotate(-1deg);
 }
 
 .explosion-header h2 {
-    background: linear-gradient(45deg, var(--primary-red), var(--explosion-orange), var(--primary-yellow));
+    background-color: blue;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: clamp(2.5rem, 6vw, 4rem);
+    text-shadow: none;
 }
 
 /* Content Styling */
@@ -214,26 +223,32 @@ body {
 }
 
 .feature-box {
-    background: linear-gradient(45deg, var(--primary-yellow), #FCD34D);
-    border: 3px solid var(--dark-outline);
-    border-radius: 10px;
+    background: linear-gradient(135deg, var(--primary-yellow) 0%, #FFFF99 100%);
+    border: 4px solid var(--dark-outline);
+    border-radius: 15px;
     padding: 1.5rem;
     text-align: center;
     transform: rotate(-0.5deg);
-    box-shadow: 5px 5px 0px var(--shadow-gray);
+    box-shadow:
+        5px 5px 0px var(--shadow-gray),
+        0 0 0 2px var(--primary-red);
     color: var(--readable-text);
 }
 
 .feature-box:nth-child(even) {
     transform: rotate(0.5deg);
-    background: linear-gradient(45deg, var(--primary-blue), #60A5FA);
+    background: linear-gradient(135deg, var(--primary-blue) 0%, #6699FF 100%);
+    border-color: var(--dark-outline);
     color: var(--light-text);
+    box-shadow:
+        5px 5px 0px var(--shadow-gray),
+        0 0 0 2px var(--primary-yellow);
 }
 
 .feature-box h3 {
     font-size: clamp(1rem, 2vw, 1.3rem);
     margin-bottom: 0.5rem;
-    text-shadow: -2px -2px 0px var(--dark-outline), 2px -2px 0px var(--dark-outline), -2px 2px 0px var(--dark-outline), 2px 2px 0px var(--dark-outline);
+    /* text-shadow: -2px -2px 0px var(--dark-outline), 2px -2px 0px var(--dark-outline), -2px 2px 0px var(--dark-outline), 2px 2px 0px var(--dark-outline); */
     font-weight: 400;
 }
 
@@ -252,13 +267,15 @@ body {
 }
 
 .objective-card {
-    background: var(--accent-bg);
+    background: linear-gradient(135deg, var(--light-text) 0%, var(--accent-bg) 100%);
     border: 4px solid var(--dark-outline);
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 1.5rem;
     position: relative;
     transform: rotate(-0.5deg);
-    box-shadow: 6px 6px 0px var(--shadow-gray);
+    box-shadow:
+        6px 6px 0px var(--shadow-gray),
+        0 0 0 2px var(--primary-green);
     color: var(--readable-text);
 }
 
@@ -286,10 +303,10 @@ body {
 
 .objective-card h4 {
     font-size: clamp(1.1rem, 2vw, 1.4rem);
-    color: var(--primary-blue);
+    color: var(--primary-red);
     margin-bottom: 1rem;
     margin-top: 0.5rem;
-    text-shadow: -2px -2px 0px var(--light-text), 2px -2px 0px var(--light-text), -2px 2px 0px var(--light-text), 2px 2px 0px var(--light-text);
+    text-shadow: -2px -2px 0px var(--dark-outline), 2px -2px 0px var(--dark-outline), -2px 2px 0px var(--dark-outline), 2px 2px 0px var(--dark-outline);
     font-weight: 400;
 }
 
@@ -336,6 +353,8 @@ body {
 .status.todo {
     background: var(--primary-yellow);
     color: var(--dark-outline);
+    border-color: var(--dark-outline);
+    font-weight: 400;
 }
 
 .mission-title {
@@ -351,19 +370,43 @@ body {
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
+    background: repeating-linear-gradient(
+        0deg,
+        var(--dark-outline) 0px,
+        var(--dark-outline) 2px,
+        var(--light-text) 2px,
+        var(--light-text) 4px
+    );
+    border-top: 6px solid var(--primary-red);
 }
 
 .footer-burst {
     display: inline-block;
-    background: var(--primary-blue);
-    color: var(--light-text);
+    background: var(--primary-yellow);
+    color: var(--dark-outline);
     padding: 1rem 2rem;
-    border: 3px solid var(--dark-outline);
+    border: 4px solid var(--dark-outline);
     border-radius: 25px;
     transform: rotate(-1deg);
     box-shadow: 5px 5px 0px var(--shadow-gray);
     font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-    text-shadow: -1px -1px 0px var(--dark-outline), 1px -1px 0px var(--dark-outline), -1px 1px 0px var(--dark-outline), 1px 1px 0px var(--dark-outline);
+    font-weight: 400;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-link {
+    color: var(--dark-outline);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-burst:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 8px 8px 0px var(--shadow-gray);
+}
+
+.footer-link:hover {
+    color: var(--primary-red);
 }
 
 /* Responsive Design */
