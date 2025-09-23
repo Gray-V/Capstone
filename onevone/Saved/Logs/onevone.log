@@ -1165,3 +1165,611 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.23-02.44.30:649][948]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 332.497681
 [2025.09.23-02.44.31:648][951]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.23-02.44.31:648][951]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.164246, Update Interval: 356.308472
+[2025.09.23-02.46.27:597][ 38]LogStreaming: Display: FlushAsyncLoading(351): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-02.46.27:640][ 38]LogLinker: Warning: Unable to load Paragon_Proto_Retarget with outer Package /Game/ParagonCountess/Characters/Heroes/Countess/Meshes/Paragon_Proto_Retarget because its class (Rig) does not exist
+[2025.09.23-02.46.27:660][ 38]LogLinker: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/XRBase'
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Error: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Reset Orientation and Position . Please refresh node or break links to remove pin.
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Error: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Could not find a function named "ResetOrientationAndPosition" in 'CountessPlayerCharacter'.
+Make sure 'CountessPlayerCharacter' has been compiled for  Reset Orientation and Position
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2025.09.23-02.46.27:684][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2025.09.23-02.46.27:711][ 38]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/ParagonCountess/Characters/Global/Eyes/Textures/EpicQuadPanorama_CC.EpicQuadPanorama_CC', its maximum texture size has been explicitly set to 512.
+[2025.09.23-02.46.27:879][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lace_Alpha.T_Countess_Lace_Alpha (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.27:880][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lace_N.T_Countess_Lace_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.27:888][ 38]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection (0x9BE7DEE0C2DE04A4) - The package to load does not exist on disk or in the loader
+[2025.09.23-02.46.27:888][ 38]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection.OrionGlobalGameplayCollection'
+[2025.09.23-02.46.27:901][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Universal_Eyelashes_D.T_Universal_Eyelashes_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.27:903][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Eyes/Textures/Eye_Tearduct__normals2.Eye_Tearduct__normals2 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.27:911][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Universal_Eyelashes_A.T_Universal_Eyelashes_A (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:012][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lower_body_Mask.T_Countess_Lower_body_Mask (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:112][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lower_body_normals_DEMO.T_Countess_Lower_body_normals_DEMO (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:177][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lower_body_RGB.T_Countess_Lower_body_RGB (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:223][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Head_shoulders_Color_00.T_Countess_Head_shoulders_Color_00 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:433][ 38]LogSkeletalMesh: Display: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\Meshes\SM_Countess.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.23-02.46.28:634][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Head_shoulders_Mask.T_Countess_Head_shoulders_Mask (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:759][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Sword_EmissiveMask_RGB.T_Countess_Sword_EmissiveMask_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.28:791][ 38]LogSkeletalMesh: Building Skeletal Mesh SM_Countess...
+[2025.09.23-02.46.28:944][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Head_shoulders_normals_DEMO.T_Countess_Head_shoulders_normals_DEMO (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:144][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Sword_Holster_Mask.T_Countess_Sword_Holster_Mask (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:447][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Sword_holster_normals_DEMO.T_Countess_Sword_holster_normals_DEMO (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:677][ 38]LogSkeletalMesh: Built Skeletal Mesh [0.89s] /Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess
+[2025.09.23-02.46.29:694][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Mouth/Textures/T_TeethAndTongue_N.T_TeethAndTongue_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:697][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Mouth/Textures/T_TeethAndTongue_D2.T_TeethAndTongue_D2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:767][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Upper_body_Mask.T_Countess_Upper_body_Mask (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:777][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/FemaleHairSet01/T_FemaleHairSet01_Depth.T_FemaleHairSet01_Depth (G8, 2048x2048 x1x1x1) (Required Memory Estimate: 128.999993 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:779][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/FemaleHairSet01/T_FemaleHairSet01_ID.T_FemaleHairSet01_ID (G8, 2048x2048 x1x1x1) (Required Memory Estimate: 128.999993 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:887][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/FemaleHairSet01/T_Count_Hair_DyeMask.T_Count_Hair_DyeMask (BGRA8, 4096x4096 x1x1x1) (Required Memory Estimate: 576.999992 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:910][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Uphill_Fwd.Jog_Uphill_Fwd (Required Memory Estimate: 1.16 MB)
+[2025.09.23-02.46.29:910][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Sword_Holster_RGB.T_Countess_Sword_Holster_RGB (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:930][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/FemaleHairSet01/T_FemaleHairSet01_Opacity.T_FemaleHairSet01_Opacity (G8, 2048x2048 x1x1x1) (Required Memory Estimate: 128.999993 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.29:934][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+[2025.09.23-02.46.29:935][ 38]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.09.23-02.46.29:945][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Uphill_Fwd.Jog_Uphill_Fwd, at AnimationSequence/6c468f092a3ecacd474f761a0ea33b2bcb7cbbba
+[2025.09.23-02.46.29:989][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Upper_body_normals_DEMO.T_Countess_Upper_body_normals_DEMO (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:051][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_CircleRight.Jog_Fwd_CircleRight (Required Memory Estimate: 1.26 MB)
+[2025.09.23-02.46.30:051][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd.Jog_Fwd (Required Memory Estimate: 1.26 MB)
+[2025.09.23-02.46.30:057][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_CircleLeft.Jog_Fwd_CircleLeft (Required Memory Estimate: 1.26 MB)
+[2025.09.23-02.46.30:109][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_CircleLeft.Jog_Fwd_CircleLeft, at AnimationSequence/6adf69ea4474f6f151f096d4af88d3633876d389
+[2025.09.23-02.46.30:109][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_CircleRight.Jog_Fwd_CircleRight, at AnimationSequence/70f1387342eead24b13e00f5da97e3d26ffcb175
+[2025.09.23-02.46.30:115][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Upper_body_RGB.T_Countess_Upper_body_RGB (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:132][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd.Jog_Fwd, at AnimationSequence/4b6caff0bc254e9a5d2d37764927f5a47bcfacdf
+[2025.09.23-02.46.30:521][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Downhill_Fwd.Jog_Downhill_Fwd (Required Memory Estimate: 1.43 MB)
+[2025.09.23-02.46.30:521][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RU.Idle_AO_RU (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:521][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart.LevelStart (Required Memory Estimate: 14.57 MB)
+[2025.09.23-02.46.30:521][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RC.Idle_AO_RC (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:521][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LU.Idle_AO_LU (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:522][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RD.Idle_AO_RD (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:523][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RU.Idle_AO_RU, at AnimationSequence/e264a38b1a899cc9d4e3fc009d36776fc9f2fc65
+[2025.09.23-02.46.30:524][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LD.Idle_AO_LD (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:524][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RD.Idle_AO_RD, at AnimationSequence/f7addbc3cbacd0fe22cf44671ed9c0100be272d5
+[2025.09.23-02.46.30:524][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LC.Idle_AO_LC (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:527][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LU.Idle_AO_LU, at AnimationSequence/f06d9a836a0501f37d7ba7a9a5b51c97f83dc7b8
+[2025.09.23-02.46.30:527][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CU.Idle_AO_CU (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:528][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LD.Idle_AO_LD, at AnimationSequence/1ab99d8c41e04211d4981ac39abc36cf4c3931d6
+[2025.09.23-02.46.30:528][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CD.Idle_AO_CD (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:529][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_RC.Idle_AO_RC, at AnimationSequence/f4acac4c34397236cdcaf9b21ec8ac28af8304dd
+[2025.09.23-02.46.30:530][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_LC.Idle_AO_LC, at AnimationSequence/2e9aee49ca779bb6ed390084d5f767c75967dd3c
+[2025.09.23-02.46.30:531][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CD.Idle_AO_CD, at AnimationSequence/5ab7834a6098b78c7f59a5afcc9386d354eff87b
+[2025.09.23-02.46.30:533][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CU.Idle_AO_CU, at AnimationSequence/747e30efe34286d6a8441116a04699ec5f6d42ae
+[2025.09.23-02.46.30:540][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_Normal.Primary_Attack_Normal (Required Memory Estimate: 0.90 MB)
+[2025.09.23-02.46.30:540][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CC.Idle_AO_CC (Required Memory Estimate: 0.32 MB)
+[2025.09.23-02.46.30:540][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_B_Normal.Primary_Attack_B_Normal (Required Memory Estimate: 0.90 MB)
+[2025.09.23-02.46.30:540][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_A_Normal.Primary_Attack_A_Normal (Required Memory Estimate: 0.90 MB)
+[2025.09.23-02.46.30:542][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/AimOffsets/Idle_AO_CC.Idle_AO_CC, at AnimationSequence/dc650fbfe7d3aeb2f9d1d101b94b2d88611b51c5
+[2025.09.23-02.46.30:546][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Start.Jump_Start (Required Memory Estimate: 0.44 MB)
+[2025.09.23-02.46.30:551][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Start.Jump_Start, at AnimationSequence/cac2065ddb2c176af07cf3b7a62cece9a10c387a
+[2025.09.23-02.46.30:551][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive (Required Memory Estimate: 2.13 MB)
+[2025.09.23-02.46.30:552][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Downhill_Fwd.Jog_Downhill_Fwd, at AnimationSequence/675f1d4739196b16781b8c1ac6bd336274638e18
+[2025.09.23-02.46.30:552][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Land.Jump_Land (Required Memory Estimate: 0.37 MB)
+[2025.09.23-02.46.30:556][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_A_Normal.Primary_Attack_A_Normal, at AnimationSequence/600c3eaa821a996876cbb18782443bd481366dac
+[2025.09.23-02.46.30:557][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Land.Jump_Land, at AnimationSequence/70ef31a06643eb7fa75bed0742d403aa98819e86
+[2025.09.23-02.46.30:557][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_B_Normal.Primary_Attack_B_Normal, at AnimationSequence/e4e32d357c00403b5e90f28e0c473c9d66a9cbf1
+[2025.09.23-02.46.30:560][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Primary_Attack_Normal.Primary_Attack_Normal, at AnimationSequence/ae017085d3739728abafd3884de9413b93561d71
+[2025.09.23-02.46.30:560][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Apex.Jump_Apex (Required Memory Estimate: 0.44 MB)
+[2025.09.23-02.46.30:561][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_Stop.Jog_Fwd_Stop (Required Memory Estimate: 1.43 MB)
+[2025.09.23-02.46.30:561][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_Start.Jog_Fwd_Start (Required Memory Estimate: 1.16 MB)
+[2025.09.23-02.46.30:561][ 38]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Idle_Relaxed.Idle_Relaxed (Required Memory Estimate: 30.77 MB)
+[2025.09.23-02.46.30:564][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Apex.Jump_Apex, at AnimationSequence/be389a6981d23d31c12e25b2cf6e8f8368f1e0f8
+[2025.09.23-02.46.30:581][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_Start.Jog_Fwd_Start, at AnimationSequence/0fc47206a11709450adabe311b25460f0b701b05
+[2025.09.23-02.46.30:594][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jump_Recovery_Additive.Jump_Recovery_Additive, at AnimationSequence/737793949a0859d89cc20f27bc0e07067d19762f
+[2025.09.23-02.46.30:594][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Jog_Fwd_Stop.Jog_Fwd_Stop, at AnimationSequence/1b68c13d87311b89d076aec2dcebfb643706c9d5
+[2025.09.23-02.46.30:600][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_ML_LatexTech.T_ML_LatexTech (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:600][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_ML_LatexTech_ClearCoat_Roughness.T_ML_LatexTech_ClearCoat_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:614][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/Dye_MaskGradients/T_Count_hair_mask_demo.T_Count_hair_mask_demo (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:633][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Hair/SharedHairContent/FemaleHairSet01/T_FemaleHairSet01_Roots.T_FemaleHairSet01_Roots (G8, 2048x2048 x1x1x1) (Required Memory Estimate: 128.999993 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:645][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/FX/Textures/Masks/T_Explosion_WarpMask.T_Explosion_WarpMask (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:652][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_ML_PlasticPattern05_N.T_ML_PlasticPattern05_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:680][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/FX/Textures/Tile/Noise/T_NoiseCracks_E.T_NoiseCracks_E (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:713][ 38]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Rubber/T_ML_FineRubber_N.T_ML_FineRubber_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.46.30:842][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart.LevelStart, at AnimationSequence/41c3ce08085aad4bd02febe7c24ff2ab1f6d307a
+[2025.09.23-02.46.31:159][ 38]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonCountess/Characters/Heroes/Countess/Animations/Idle_Relaxed.Idle_Relaxed, at AnimationSequence/e668d3a669625a8c47eab903ed0bb26554852ae2
+[2025.09.23-02.46.32:106][ 38]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.23-02.46.32:136][ 38]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.09.23-02.46.32:136][ 38]LogScript: Warning: Script Msg called by: Countess_AnimBlueprint_C /Engine/Transient.World_0:PersistentLevel.CountessPlayerCharacter_C_0.CharacterMesh0.Countess_AnimBlueprint_C_0
+[2025.09.23-02.46.32:137][ 38]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.46.32:137][ 38]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.46.32:198][ 38]LogSlate: Took 0.000682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.09.23-02.46.32:304][ 38]LogSlate: Took 0.009225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.09.23-02.46.32:551][ 38]LoadErrors: Warning: While trying to load package /Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage, a dependent package /Game/ParagonShinbi/Characters/Heroes/Mudang/Animations/LevelStart was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/ParagonShinbi/Characters/Heroes/Mudang/Animations/LevelStart has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonShinbi/Characters/Heroes/Mudang/Animations/LevelStart'. Perhaps it has been deleted or was not synced?
+
+[2025.09.23-02.46.32:551][ 38]LoadErrors: Warning: While trying to load package /Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage, a dependent package /Game/ParagonShinbi/FX/Particles/Emotes/FX/P_Mudang_LevelStart_Heart was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/ParagonShinbi/FX/Particles/Emotes/FX/P_Mudang_LevelStart_Heart has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonShinbi/FX/Particles/Emotes/FX/P_Mudang_LevelStart_Heart'. Perhaps it has been deleted or was not synced?
+
+[2025.09.23-02.46.39:186][154]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.23-02.46.39:329][155]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.09.23-02.46.44:288][410]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.46.44:302][410]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.46.44:306][410]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.46.44:306][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.46.44:444][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.23-02.46.44:665][426]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.09.23-02.46.44:678][426]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.09.23-02.46.44:678][426]LogScript: Warning: Script Msg called by: Countess_AnimBlueprint_C /Engine/Transient.World_4:PersistentLevel.CountessPlayerCharacter_C_0.CharacterMesh0.Countess_AnimBlueprint_C_0
+[2025.09.23-02.46.44:678][426]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.46.44:678][426]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.47.08:028][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.09.23-02.47.08:033][325]LogStreaming: Display: FlushAsyncLoading(554): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-02.47.08:742][325]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-02.47.08:742][325]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.23-02.47.08:742][325]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-02.47.08:742][325]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/Lvl_Combat.Lvl_Combat, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-02.47.09:673][325]LogStateTreeEditor: Compile StateTree 'StateTree /Game/Variant_Combat/Blueprints/AI/ST_CombatEnemy.ST_CombatEnemy' succeeded.
+[2025.09.23-02.47.09:698][325]LogWorldPartition: Display: WorldPartition initialize took 955.610 ms (total: 1.00 sec)
+[2025.09.23-02.47.09:712][325]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Variant_Combat/Lvl_Combat.Lvl_Combat
+[2025.09.23-02.47.09:712][325]Cmd: MAP LOAD FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Lvl_Combat.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.23-02.47.09:749][325]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.47.09:749][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.47.09:749][325]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.09.23-02.47.09:777][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.23-02.47.09:783][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.23-02.47.09:785][325]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.47.09:786][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.47.09:786][325]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/Lvl_Combat.Lvl_Combat
+[2025.09.23-02.47.09:810][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.09.23-02.47.09:834][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.23-02.47.09:841][325]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_Combat'.
+[2025.09.23-02.47.09:841][325]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-02.47.09:844][325]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.23-02.47.09:844][325]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-02.47.09:844][325]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/Lvl_Combat.Lvl_Combat, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-02.47.09:881][325]LogWorldPartition: Display: WorldPartition initialize took 36.946 ms (total: 1.04 sec)
+[2025.09.23-02.47.09:914][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.23-02.47.09:939][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.09.23-02.47.09:944][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.23-02.47.09:945][325]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.917ms to complete.
+[2025.09.23-02.47.10:025][325]LoadErrors: Warning: While trying to load package /Game/Variant_Combat/Input/IMC_Combat, a dependent package /Game/Variant_Platforming/Input/Actions/IA_Dash was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Variant_Platforming/Input/Actions/IA_Dash has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Platforming/Input/Actions/IA_Dash'. Perhaps it has been deleted or was not synced?
+
+[2025.09.23-02.47.10:114][327]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-02.47.13:691][635]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.09.23-02.47.15:539][773]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Variant_Combat/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2025.09.23-02.47.15:540][773]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.23-02.47.16:341][776]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.23-02.47.21:712][ 87]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.23-02.47.44:785][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.23-02.47.50:142][528]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2025.09.23-02.47.50:158][528]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2025.09.23-02.47.50:161][528]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.47.50:161][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.47.50:246][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.23-02.47.52:678][750]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-02.47.52:683][750]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-02.47.52:683][750]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-02.47.52:683][750]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-02.47.52:684][750]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.854 ms
+[2025.09.23-02.47.52:688][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-02.47.52:688][750]BlueprintLog: Warning: Blueprint failed to compile:  CountessPlayerCharacter
+[2025.09.23-02.47.54:770][750]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.09.23-02.47.57:694][999]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+[2025.09.23-02.47.57:694][999]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.09.23-02.47.57:973][999]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.09.23-02.47.57:973][999]LogScript: Warning: Script Msg called by: Countess_AnimBlueprint_C /Engine/Transient.World_9:PersistentLevel.CountessPlayerCharacter_C_0.CharacterMesh0.Countess_AnimBlueprint_C_0
+[2025.09.23-02.47.57:973][999]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.47.57:973][999]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: ================================================
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Total job queries 594, among them cache hits 51 (8.59%), DDC hits 365 (61.45%), Duplicates 69 (11.62%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Tracking 474 distinct input hashes that result in 356 distinct outputs (75.11%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: RAM used: 4.39 MiB of 1.60 GiB budget. Usage: 0.27%
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Shaders Compiled: 109
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Jobs assigned 109, completed 109 (100%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Average time worker was idle: 1.22 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Time job spent in pending queue: average 3.09 s, longest 6.45 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 1.78 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Job life time (pending + execution): average 3.67 s, max 6.86
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Shader code size: total 1.061 MiB, numShaders 123, average 8.831 KiB, min 2.84 KiB, max 18.773 KiB
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.75 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Jobs were issued in 109 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Average processing rate: 6.92 jobs/sec
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Total thread time: 55.544 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Total thread preprocess time: 6.578 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Percentage time preprocessing: 11.84%
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Effective parallelization: 3.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.440749
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    4 times, average 1.14 sec, max 1.37 sec, min 0.65 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 1.07 sec, max 1.15 sec, min 0.91 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   10 times, average 0.89 sec, max 1.28 sec, min 0.69 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    6 times, average 0.84 sec, max 0.87 sec, min 0.79 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.55 sec, max 0.67 sec, min 0.45 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                                  FVelocityPS - 16.03% of total time (compiled   10 times, average 0.89 sec, max 1.28 sec, min 0.69 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.99% of total time (compiled   10 times, average 0.55 sec, max 0.67 sec, min 0.45 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 9.07% of total time (compiled    6 times, average 0.84 sec, max 0.87 sec, min 0.79 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                                  FVelocityVS - 8.20% of total time (compiled   10 times, average 0.46 sec, max 0.52 sec, min 0.41 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 8.19% of total time (compiled    4 times, average 1.14 sec, max 1.37 sec, min 0.65 sec)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: === Material stats ===
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Materials Translated:    163
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Material Translation Only: 0.08 s (57%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: Material Cache Hits: 22 (13%)
+[2025.09.23-02.48.01:314][217]LogShaderCompilers: Display: ================================================
+[2025.09.23-02.48.29:942][163]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.48.29:950][163]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.48.29:953][163]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.48.29:953][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.48.30:022][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.09.23-02.48.32:980][434]LogSlate: Window 'Message Log' being destroyed
+[2025.09.23-02.48.32:992][434]LogSlate: Window 'Message Log' being destroyed
+[2025.09.23-02.48.52:057][178]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.23-02.48.52:130][179]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.23-02.48.56:185][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.23-02.48.56:392][639]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.09.23-02.48.56:404][639]LogSlate: Took 0.011510 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.23-02.49.16:863][639]LogSlate: Window 'Replace References?' being destroyed
+[2025.09.23-02.49.16:872][639]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with ABP_Manny_Combat; and then delete them.
+
+Are you sure?
+[2025.09.23-02.49.16:873][639]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-02.49.17:361][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.23-02.49.17:529][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.23-02.49.19:026][639]LogSlate: Window 'Save Content' being destroyed
+[2025.09.23-02.49.19:043][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-02.49.19:092][639]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter] ([2] browsable assets)...
+[2025.09.23-02.49.19:092][639]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.23-02.49.19:105][639]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.19:105][639]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.19:173][639]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter_C]
+[2025.09.23-02.49.19:173][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter]
+[2025.09.23-02.49.19:201][639]LogSavePackage: Moving output files for package: /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter
+[2025.09.23-02.49.19:201][639]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/CountessPlayerCharacterA1EAC0DC45F511E2237C9AAAF20A994B.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.uasset'
+[2025.09.23-02.49.19:204][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint] ([3] browsable assets)...
+[2025.09.23-02.49.19:204][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint]
+[2025.09.23-02.49.19:211][639]LogSavePackage: Moving output files for package: /Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint
+[2025.09.23-02.49.19:212][639]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/Countess_AnimBlueprintDDED9D184EE39F45340A51A3EA5349DA.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint.uasset'
+[2025.09.23-02.49.19:229][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 186.980 ms
+[2025.09.23-02.49.19:284][639]LogContentValidation: Display: Starting to validate 4 assets
+[2025.09.23-02.49.19:284][639]LogContentValidation: Enabled validators:
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-02.49.19:285][639]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-02.49.19:285][639]AssetCheck: /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter Validating asset
+[2025.09.23-02.49.19:285][639]AssetCheck: /Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint Validating asset
+[2025.09.23-02.49.19:285][639]AssetCheck: /Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint Validating asset
+[2025.09.23-02.49.19:285][639]AssetCheck: /Game/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint Validating asset
+[2025.09.23-02.49.19:315][639]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-02.49.21:948][846]LogSlate: Window 'Content Browser' being destroyed
+[2025.09.23-02.49.21:960][846]LogSlate: Window 'Content Browser' being destroyed
+[2025.09.23-02.49.23:148][957]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-02.49.23:152][957]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-02.49.23:152][957]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-02.49.23:152][957]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-02.49.23:153][957]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 909 us (total: 2.763 ms)
+[2025.09.23-02.49.23:155][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-02.49.23:155][957]BlueprintLog: Warning: Blueprint failed to compile:  CountessPlayerCharacter
+[2025.09.23-02.49.26:136][957]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.09.23-02.49.28:148][120]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+[2025.09.23-02.49.28:148][120]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.09.23-02.49.28:441][120]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.28:441][120]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2025.09.23-02.49.34:307][552]LogBlueprint: Error: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Reset Orientation and Position . Please refresh node or break links to remove pin.
+[2025.09.23-02.49.34:307][552]LogBlueprint: Error: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Could not find a function named "ResetOrientationAndPosition" in 'CountessPlayerCharacter'.
+Make sure 'CountessPlayerCharacter' has been compiled for  Reset Orientation and Position
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2025.09.23-02.49.34:307][552]LogBlueprint: Warning: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2025.09.23-02.49.34:312][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.34:312][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.34:316][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.34:316][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.34:318][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.34:318][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.34:373][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.09.23-02.49.34:382][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.49.34:382][552]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.49.44:603][310]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.49.44:619][310]LogSlate: Window 'CountessPlayerCharacter' being destroyed
+[2025.09.23-02.49.44:623][310]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.49.44:623][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.49.44:695][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.09.23-02.49.46:955][512]LogSlate: Window 'Message Log' being destroyed
+[2025.09.23-02.49.46:992][512]LogSlate: Window 'Message Log' being destroyed
+[2025.09.23-02.50.00:425][727]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.09.23-02.50.00:515][728]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.09.23-02.50.02:233][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.23-02.50.07:010][912]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-02.50.10:474][201]LogStreaming: Display: FlushAsyncLoading(869): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:ShadowMapTexture2D_0 (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 1.520825 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 8.541636 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:499][201]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.AnimationTestMap_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.416541 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.10:501][201]LogChaosDD: Creating Chaos Debug Draw Scene for world AnimationTestMap
+[2025.09.23-02.50.10:504][201]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.50.10:504][201]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.50.10:507][201]LogObjectTools: Deleting 1 worlds: /Game/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap.AnimationTestMap
+[2025.09.23-02.50.10:507][201]LogObjectTools: Currently 13 active worlds: /Game/Variant_Combat/Lvl_Combat.Lvl_Combat, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_14, /Engine/Transient.World_15
+[2025.09.23-02.50.10:530][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.23-02.50.11:838][201]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-02.50.11:849][201]LogWorld: UWorld::CleanupWorld for AnimationTestMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.50.11:849][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.50.11:881][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.09.23-02.50.11:909][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.09.23-02.50.11:934][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.23-02.50.11:963][201]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-02.50.14:303][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.23-02.50.15:377][386]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-02.50.15:614][386]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+	Asset Type: Blueprint
+[2025.09.23-02.50.15:851][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.09.23-02.50.15:898][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.09.23-02.50.15:921][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.09.23-02.50.15:942][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.09.23-02.50.18:293][587]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-02.50.18:297][587]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-02.50.18:297][587]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-02.50.18:298][587]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-02.50.18:298][587]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 896 us (total: 3.659 ms)
+[2025.09.23-02.50.18:301][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-02.50.18:301][587]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2025.09.23-02.50.18:303][587]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.09.23-02.50.18:324][588]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-02.50.18:336][588]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-02.50.18:338][588]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.849 ms
+[2025.09.23-02.50.18:338][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014787s)
+[2025.09.23-02.50.18:338][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.014835s)
+[2025.09.23-02.50.18:361][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.09.23-02.50.18:364][588]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-02.50.18:366][588]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-02.50.18:366][588]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-02.50.18:366][588]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-02.50.18:366][588]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-02.50.18:369][588]LogWorldPartition: Display: WorldPartition initialize took 3.303 ms (total: 1.04 sec)
+[2025.09.23-02.50.18:369][588]LogPlayLevel: PIE: World Init took: (0.004976s)
+[2025.09.23-02.50.18:370][588]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-02.50.18:370][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-02.50.18:370][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-02.50.18:370][588]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-02.50.18:370][588]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-02.50.18:370][588]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-02.50.18:373][588]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-02.50.18:400][588]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-02.50.18:400][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-02.50.18:400][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-02.50.18:400][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-02.50.18:401][588]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.09.23-02.50.18:401][588]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.09.23-02.50.18:403][588]LogInit: FAudioDevice initialized with ID 2.
+[2025.09.23-02.50.18:403][588]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.09.23-02.50.18:403][588]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.09.23-02.50.18:403][588]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_Combat'.
+[2025.09.23-02.50.18:404][588]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.23-02.50.18:413][588]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-02.50.18:417][588]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-19.50.18
+[2025.09.23-02.50.18:418][588]LogWorld: Bringing up level for play took: 0.003865
+[2025.09.23-02.50.18:423][588]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-02.50.18:429][588]PIE: Server logged in
+[2025.09.23-02.50.18:433][588]PIE: Play in editor total start time 0.135 seconds.
+[2025.09.23-02.50.18:457][589]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-02.50.18:457][589]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-02.50.18:523][590]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-02.50.19:136][603]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/Eyes/Textures/Example/T_EyeIrisBaseColor_Example_2.T_EyeIrisBaseColor_Example_2 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.50.30:484][469]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 692.331604
+[2025.09.23-02.50.30:598][478]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-02.50.30:598][478]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 692.433533, Update Interval: 318.644379
+[2025.09.23-02.50.34:458][776]LogNiagara: Compiling System NiagaraSystem /Game/Variant_Combat/VFX/NS_Damage.NS_Damage took 0.024535 sec (time since issued).
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: ================================================
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Total job queries 640, among them cache hits 75 (11.72%), DDC hits 377 (58.91%), Duplicates 69 (10.78%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Tracking 496 distinct input hashes that result in 377 distinct outputs (76.01%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: RAM used: 4.55 MiB of 1.60 GiB budget. Usage: 0.28%
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Shaders Compiled: 119
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Jobs assigned 119, completed 119 (100%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Average time worker was idle: 15.74 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Time job spent in pending queue: average 2.84 s, longest 6.45 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 1.78 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Job life time (pending + execution): average 3.43 s, max 6.86
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Shader code size: total 1.136 MiB, numShaders 133, average 8.745 KiB, min 2.84 KiB, max 18.773 KiB
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.83 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Jobs were issued in 119 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Average processing rate: 7.07 jobs/sec
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Total thread time: 59.564 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Total thread preprocess time: 6.997 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Percentage time preprocessing: 11.75%
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Effective parallelization: 3.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.442288
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    4 times, average 1.14 sec, max 1.37 sec, min 0.65 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 1.07 sec, max 1.15 sec, min 0.91 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   10 times, average 0.89 sec, max 1.28 sec, min 0.69 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    6 times, average 0.84 sec, max 0.87 sec, min 0.79 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.55 sec, max 0.67 sec, min 0.45 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                                  FVelocityPS - 14.95% of total time (compiled   10 times, average 0.89 sec, max 1.28 sec, min 0.69 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.31% of total time (compiled   10 times, average 0.55 sec, max 0.67 sec, min 0.45 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 8.46% of total time (compiled    6 times, average 0.84 sec, max 0.87 sec, min 0.79 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                                  FVelocityVS - 7.64% of total time (compiled   10 times, average 0.46 sec, max 0.52 sec, min 0.41 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 7.64% of total time (compiled    4 times, average 1.14 sec, max 1.37 sec, min 0.65 sec)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: === Material stats ===
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Materials Translated:    163
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Material Translation Only: 0.08 s (57%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: Material Cache Hits: 22 (13%)
+[2025.09.23-02.51.01:324][885]LogShaderCompilers: Display: ================================================
+[2025.09.23-02.51.03:235][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-02.51.03:235][ 35]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-02.51.03:235][ 35]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-02.51.03:236][ 35]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.51.03:237][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.51.03:237][ 35]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-02.51.03:239][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-02.51.03:244][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.51.03:266][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-02.51.03:266][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.23-02.51.03:266][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.09.23-02.51.03:267][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.09.23-02.51.03:274][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.23-02.51.03:307][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.09.23-02.51.27:244][921]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.09.23-02.51.27:244][921]LogStreaming: Display: FlushAsyncLoading(870): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-02.51.27:304][921]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/ParagonCountess/Characters/Maps/BackGroundAssets/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2025.09.23-02.51.27:328][921]LogChaosDD: Creating Chaos Debug Draw Scene for world Lighting_Background
+[2025.09.23-02.51.27:570][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Gold/Textures/T_Hieroglyphics_Tile_01.T_Hieroglyphics_Tile_01 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 9.249992 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.27:573][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_Egyptian_Pattern_Tiles.T_Egyptian_Pattern_Tiles (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.27:682][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Lower_body_Mask1.T_Countess_Lower_body_Mask1 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.27:683][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Upper_body_Mask1.T_Countess_Upper_body_Mask1 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.27:683][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Carnivale/Textures/T_Head_s_PaintMask2.T_Head_s_PaintMask2 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.27:999][921]LogSkeletalMesh: Display: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\Skins\Tier1\Count_Carnivale\Meshes\SM_Countess_Carnivale.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.23-02.51.28:285][921]LogSkeletalMesh: Building Skeletal Mesh SM_Countess_Carnivale...
+[2025.09.23-02.51.29:057][921]LogSkeletalMesh: Built Skeletal Mesh [0.77s] /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Carnivale/Meshes/SM_Countess_Carnivale.SM_Countess_Carnivale
+[2025.09.23-02.51.29:062][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Textures/T_ElectroHex_Tile_02.T_ElectroHex_Tile_02 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 119.708323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:063][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Textures/T_ElectroHex_Tile_01.T_ElectroHex_Tile_01 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 119.708323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:069][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Textures/T_ElectroHex_Tile_Sine.T_ElectroHex_Tile_Sine (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 119.708323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:081][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Textures/T_ElectroHex_Tile_N.T_ElectroHex_Tile_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 214.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:165][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Lower_MASK01.T_ShoGun_Lower_MASK01 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:165][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Gold/Textures/T_Countess_Hair_DyeMask2.T_Countess_Hair_DyeMask2 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:771][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_Countess_Shogun_Lower_N.T_Countess_Shogun_Lower_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1216.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.29:913][921]LogSkeletalMesh: Display: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\Skins\Tier1\Count_Gold\Meshes\SM_CountessGilded.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.23-02.51.30:186][921]LogSkeletalMesh: Building Skeletal Mesh SM_CountessGilded...
+[2025.09.23-02.51.30:923][921]LogSkeletalMesh: Built Skeletal Mesh [0.74s] /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Gold/Meshes/SM_CountessGilded.SM_CountessGilded
+[2025.09.23-02.51.31:004][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_ShoulderHead_MASK02.T_ShoGun_ShoulderHead_MASK02 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.31:031][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_ShoulderHead_MASK01.T_ShoGun_ShoulderHead_MASK01 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.31:040][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Lower_MASK02.T_ShoGun_Lower_MASK02 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.31:255][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Lower_RGBA.T_ShoGun_Lower_RGBA (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.31:434][921]LogSkeletalMesh: Display: [AssetLog] C:\Users\liamo\GitHub\1v1-Me\onevone\Content\ParagonCountess\Characters\Heroes\Countess\Skins\Tier1\Count_RedRevo\Meshes\SM_Countess_RedRevo.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.23-02.51.31:712][921]LogSkeletalMesh: Building Skeletal Mesh SM_Countess_RedRevo...
+[2025.09.23-02.51.32:466][921]LogSkeletalMesh: Built Skeletal Mesh [0.75s] /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Meshes/SM_Countess_RedRevo.SM_Countess_RedRevo
+[2025.09.23-02.51.32:743][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_ShoulderHead_RGBA.T_ShoGun_ShoulderHead_RGBA (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.33:097][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_Countess_Shogun_Upper_N.T_Countess_Shogun_Upper_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1216.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.33:147][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_Shogun_ShoulderHead_N.T_Shogun_ShoulderHead_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1216.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.33:644][921]LogSkeletalMesh: Building Skeletal Mesh SM_Countess_Shogun...
+[2025.09.23-02.51.34:406][921]LogSkeletalMesh: Built Skeletal Mesh [0.76s] /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Meshes/SM_Countess_Shogun.SM_Countess_Shogun
+[2025.09.23-02.51.34:424][921]LogChaosDD: Creating Chaos Debug Draw Scene for world Countess
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Meshes/SM_Countess_Shogun.SM_Countess_Shogun]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Meshes/SM_Countess_Shogun.SM_Countess_Shogun]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Meshes/SM_Countess_RedRevo.SM_Countess_RedRevo]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_RedRevo/Meshes/SM_Countess_RedRevo.SM_Countess_RedRevo]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Gold/Meshes/SM_CountessGilded.SM_CountessGilded]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.51.34:426][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Gold/Meshes/SM_CountessGilded.SM_CountessGilded]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.51.34:427][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Carnivale/Meshes/SM_Countess_Carnivale.SM_Countess_Carnivale]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.23-02.51.34:427][921]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier1/Count_Carnivale/Meshes/SM_Countess_Carnivale.SM_Countess_Carnivale]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.23-02.51.34:429][921]LogObjectTools: Deleting 2 worlds: /Game/ParagonCountess/Characters/Maps/Lighting_Background.Lighting_Background, /Game/ParagonCountess/Characters/Maps/Countess.Countess
+[2025.09.23-02.51.34:429][921]LogObjectTools: Currently 13 active worlds: /Game/Variant_Combat/Lvl_Combat.Lvl_Combat, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_14, /Engine/Transient.World_15
+[2025.09.23-02.51.34:453][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.09.23-02.51.34:500][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Upper_MASK02.T_ShoGun_Upper_MASK02 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:519][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Upper_MASK01.T_ShoGun_Upper_MASK01 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:781][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_Honeycomb_N.T_Honeycomb_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 398.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:781][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Synthetics/T_Honeycomb_D.T_Honeycomb_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 304.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:809][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_ShoGun_Upper_RGBA.T_ShoGun_Upper_RGBA (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:857][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/FX/Textures/Tile/Noise/T_Noise_Rough_Dark_Big.T_Noise_Rough_Dark_Big (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.34:969][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Metal/T_Gray_Flat_Black.T_Gray_Flat_Black (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.35:064][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Metal/T_Metal_SandCast_Med_N.T_Metal_SandCast_Med_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 382.499988 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.35:181][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Coat_Head_N_TB100.T_Countess_Coat_Head_N_TB100 (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.35:333][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Global/MaterialLayers/Metal/T_ScratchMask.T_ScratchMask (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.083323 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.35:558][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Textures/T_Countess_Head_shoulders_Mask_N.T_Countess_Head_shoulders_Mask_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.35:851][921]LogTexture: Display: Building textures: /Game/ParagonCountess/Characters/Heroes/Countess/Skins/Tier2/Shogun/Textures/T_Shogun_ShoulderHead_D.T_Shogun_ShoulderHead_D (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.23-02.51.39:530][921]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-02.51.39:540][921]LogWorld: UWorld::CleanupWorld for Lighting_Background, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.51.39:540][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.51.39:541][921]LogWorld: UWorld::CleanupWorld for Countess, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.51.39:541][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.51.39:637][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.23-02.51.39:660][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.23-02.51.39:680][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.09.23-02.51.39:838][921]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-02.51.56:587][235]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-02.51.56:592][235]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-02.51.56:592][235]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-02.51.56:592][235]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-02.51.56:592][235]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 852 us (total: 4.511 ms)
+[2025.09.23-02.51.56:595][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-02.51.56:625][235]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2025.09.23-02.51.56:627][235]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.09.23-02.51.56:646][236]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-02.51.56:657][236]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-02.51.56:659][236]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.248 ms (total: 5.097 ms)
+[2025.09.23-02.51.56:659][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012742s)
+[2025.09.23-02.51.56:659][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.012776s)
+[2025.09.23-02.51.56:679][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.23-02.51.56:684][236]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-02.51.56:685][236]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-02.51.56:685][236]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-02.51.56:685][236]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-02.51.56:685][236]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-02.51.56:688][236]LogWorldPartition: Display: WorldPartition initialize took 2.669 ms (total: 1.05 sec)
+[2025.09.23-02.51.56:688][236]LogPlayLevel: PIE: World Init took: (0.004265s)
+[2025.09.23-02.51.56:688][236]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-02.51.56:688][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-02.51.56:688][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-02.51.56:688][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-02.51.56:688][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-02.51.56:688][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-02.51.56:691][236]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-02.51.56:717][236]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-02.51.56:717][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-02.51.56:717][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-02.51.56:717][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-02.51.56:717][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.09.23-02.51.56:717][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.09.23-02.51.56:720][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.09.23-02.51.56:720][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.09.23-02.51.56:720][236]LogInit: FAudioDevice initialized with ID 3.
+[2025.09.23-02.51.56:720][236]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_Combat'.
+[2025.09.23-02.51.56:720][236]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.09.23-02.51.56:724][236]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-02.51.56:728][236]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-19.51.56
+[2025.09.23-02.51.56:728][236]LogWorld: Bringing up level for play took: 0.003690
+[2025.09.23-02.51.56:730][236]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-02.51.56:734][236]PIE: Server logged in
+[2025.09.23-02.51.56:735][236]PIE: Play in editor total start time 0.144 seconds.
+[2025.09.23-02.51.56:739][236]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-02.51.56:740][236]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-02.51.56:803][237]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-02.52.26:756][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-02.52.26:756][627]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-02.52.26:756][627]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-02.52.26:756][627]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-02.52.26:757][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.52.26:757][627]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-02.52.26:759][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-02.52.26:764][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-02.52.26:786][627]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.23-02.52.26:786][627]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.09.23-02.52.26:786][627]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.09.23-02.52.26:788][627]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.09.23-02.52.26:793][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-02.52.26:796][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.23-02.52.26:835][628]LogPlayLevel: Display: Destroying online subsystem :Context_18

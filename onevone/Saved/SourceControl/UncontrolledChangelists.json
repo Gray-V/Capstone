@@ -5,8 +5,21 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/1v1_Lvl.umap",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/Lvl_1v1.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ThirdPerson/Lvl_ThirdPerson.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/Countess_AnimBlueprint.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap_BuiltData.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Heroes/Countess/AnimationTestMap.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/BackGroundAssets/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/BackGroundAssets/HDRSky.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/BackGroundAssets/M_AssetPlatform.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/BackGroundAssets/SM_AssetPlatform.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/Countess.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/Lighting_Background.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/Countess_BuiltData.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ParagonCountess/Characters/Maps/Lighting_Background_BuiltData.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/1v1_Lvl.umap",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JR/W7S9610Y7RWELGF93FZYAE.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/MG/EDRUPW3EOYDDSI6HNSIVT1.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/50/395Y4QE4IIEWI3KSE3SB6L.uasset",
@@ -51,8 +64,7 @@
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KL/UYSRPQ5SOYIFVLEQINPH31.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/K3/79QZQ7KG2RXNWMD6RSPKUM.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EU/X5MT1GOX9C5UUGZAKRVC3R.uasset",
-				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset",
-				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/ThirdPerson/Lvl_ThirdPerson.umap"
+				"C:/Users/liamo/GitHub/1v1-Me/onevone/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset"
 			]
 		}
 	]
