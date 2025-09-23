@@ -1927,3 +1927,78 @@ FPackageName: Skipped package /Game/Variant_Platforming/Input/Actions/IA_Dash ha
 [2025.09.23-01.25.19:454][605]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.09.23-01.25.19:454][605]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.09.23-01.25.19:454][605]AssetCheck: /Game/1v1/Lvl_1v1 Validating asset
+[2025.09.23-01.26.08:952][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.09.23-01.26.08:953][687]LogStreaming: Display: FlushAsyncLoading(923): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-01.26.08:954][687]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.09.23-01.26.08:955][687]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.23-01.26.08:955][687]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-01.26.08:955][687]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-01.26.08:959][687]LogWorldPartition: Display: WorldPartition initialize took 4.473 ms (total: 1.26 sec)
+[2025.09.23-01.26.08:960][687]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.09.23-01.26.08:960][687]Cmd: MAP LOAD FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ThirdPerson/Lvl_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.23-01.26.09:017][687]LogWorld: UWorld::CleanupWorld for Lvl_1v1, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-01.26.09:017][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-01.26.09:032][687]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.23-01.26.09:032][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.23-01.26.09:034][687]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-01.26.09:034][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-01.26.09:034][687]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.09.23-01.26.09:050][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.23-01.26.09:099][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.09.23-01.26.09:101][687]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2025.09.23-01.26.09:101][687]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.09.23-01.26.09:102][687]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.23-01.26.09:102][687]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-01.26.09:102][687]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-01.26.09:105][687]LogWorldPartition: Display: WorldPartition initialize took 4.249 ms (total: 1.26 sec)
+[2025.09.23-01.26.09:127][687]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.23-01.26.09:143][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.09.23-01.26.09:148][687]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.23-01.26.09:148][687]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.372ms to complete.
+[2025.09.23-01.26.09:221][688]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-01.26.27:701][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 993.406982
+[2025.09.23-01.26.27:822][248]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-01.26.27:822][248]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 993.515137, Update Interval: 347.702271
+[2025.09.23-01.26.30:306][443]Cmd: EDIT COPY
+[2025.09.23-01.26.35:771][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.09.23-01.26.35:777][879]LogStreaming: Display: FlushAsyncLoading(967): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-01.26.35:779][879]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_1v1
+[2025.09.23-01.26.35:780][879]LogAssetEditorSubsystem: Opening Asset editor for World /Game/1v1/Lvl_1v1.Lvl_1v1
+[2025.09.23-01.26.35:780][879]Cmd: MAP LOAD FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/Lvl_1v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.23-01.26.35:827][879]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-01.26.35:827][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-01.26.35:827][879]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.09.23-01.26.35:847][879]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.23-01.26.35:849][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.09.23-01.26.35:850][879]LogWorld: UWorld::CleanupWorld for Lvl_1v1, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-01.26.35:850][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-01.26.35:864][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.09.23-01.26.35:912][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.09.23-01.26.35:915][879]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_1v1'.
+[2025.09.23-01.26.35:915][879]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_1v1
+[2025.09.23-01.26.35:933][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.23-01.26.35:946][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.09.23-01.26.35:951][879]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.23-01.26.35:951][879]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.046ms to complete.
+[2025.09.23-01.26.36:022][880]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-01.26.41:931][497]Cmd: EDIT PASTE
+[2025.09.23-01.26.56:655][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-01.26.56:705][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1v1/Lvl_1v1" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/Lvl_1v1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.23-01.26.56:731][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.09.23-01.26.56:749][926]LogSavePackage: Moving output files for package: /Game/1v1/Lvl_1v1
+[2025.09.23-01.26.56:750][926]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/Lvl_1v1408AB09245419C1145B1938CE29D2C0F.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/1v1/Lvl_1v1.umap'
+[2025.09.23-01.26.56:755][926]LogFileHelpers: Saving map 'Lvl_1v1' took 0.051
+[2025.09.23-01.26.56:764][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.689 ms (total: 780.792 ms)
+[2025.09.23-01.26.56:790][926]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-01.26.56:790][926]LogContentValidation: Enabled validators:
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-01.26.56:790][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-01.26.56:790][926]AssetCheck: /Game/1v1/Lvl_1v1 Validating asset
