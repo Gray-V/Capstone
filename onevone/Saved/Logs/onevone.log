@@ -1613,3 +1613,805 @@ FPackageName: Skipped package /Game/Variant_Platforming/Input/Actions/IA_Dash ha
 [2025.09.23-04.43.37:472][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.09.23-04.43.37:472][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.09.23-04.43.37:472][879]AssetCheck: /Game/Variant_Combat/Blueprints/BP_CombatCharacter Validating asset
+[2025.09.23-04.44.43:344][141]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Razer Kraken Kitty V2 Pro), InstanceID=1
+[2025.09.23-04.44.43:344][141]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{ba14e25c-2f95-44fb-817b-7528207b61b0}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.09.23-04.44.43:490][141]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{ba14e25c-2f95-44fb-817b-7528207b61b0}]
+[2025.09.23-04.44.43:490][141]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.09.23-04.44.43:490][141]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.09.23-04.44.44:159][143]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ba14e25c-2f95-44fb-817b-7528207b61b0}, Name=Speakers (Razer Kraken Kitty V2 Pro)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=475.98
+[2025.09.23-04.44.44:159][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.09.23-04.44.44:159][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.23-04.44.44:160][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.23-04.45.20:718][384]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-04.45.20:723][384]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-04.45.20:723][384]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-04.45.20:723][384]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-04.45.20:724][384]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.094 ms (total: 4.959 ms)
+[2025.09.23-04.45.20:725][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-04.45.20:749][384]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-04.45.20:759][384]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-04.45.20:762][384]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.285 ms (total: 9.601 ms)
+[2025.09.23-04.45.20:762][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013432s)
+[2025.09.23-04.45.20:762][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013477s)
+[2025.09.23-04.45.20:785][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.23-04.45.20:786][384]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-04.45.20:789][384]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-04.45.20:789][384]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-04.45.20:789][384]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-04.45.20:789][384]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-04.45.20:792][384]LogWorldPartition: Display: WorldPartition initialize took 2.644 ms (total: 303.759 ms)
+[2025.09.23-04.45.20:792][384]LogPlayLevel: PIE: World Init took: (0.004269s)
+[2025.09.23-04.45.20:792][384]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-04.45.20:792][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-04.45.20:792][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-04.45.20:792][384]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-04.45.20:792][384]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-04.45.20:792][384]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-04.45.20:794][384]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-04.45.20:820][384]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-04.45.20:821][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-04.45.20:821][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-04.45.20:821][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-04.45.20:821][384]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.09.23-04.45.20:821][384]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.09.23-04.45.20:824][384]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.09.23-04.45.20:824][384]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.09.23-04.45.20:824][384]LogInit: FAudioDevice initialized with ID 5.
+[2025.09.23-04.45.20:824][384]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_Combat'.
+[2025.09.23-04.45.20:824][384]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.23-04.45.20:836][384]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-04.45.20:839][384]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-21.45.20
+[2025.09.23-04.45.20:840][384]LogWorld: Bringing up level for play took: 0.003598
+[2025.09.23-04.45.20:843][384]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.09.23-04.45.20:845][384]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-04.45.20:848][384]PIE: Server logged in
+[2025.09.23-04.45.20:849][384]PIE: Play in editor total start time 0.128 seconds.
+[2025.09.23-04.45.20:854][384]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-04.45.20:854][384]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-04.45.20:929][385]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-04.45.46:020][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-04.45.46:020][229]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-04.45.46:020][229]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-04.45.46:020][229]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.45.46:021][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.45.46:021][229]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-04.45.46:023][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-04.45.46:029][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.45.46:054][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.23-04.45.46:054][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.23-04.45.46:054][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.09.23-04.45.46:056][229]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.09.23-04.45.46:061][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-04.45.46:065][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.23-04.45.46:136][230]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.09.23-04.46.58:773][781]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-04.46.58:773][781]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.09.23-04.46.58:789][781]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.09.23-04.46.58:804][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-04.46.59:078][781]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.09.23-04.48.10:717][752]LogStreaming: Display: FlushAsyncLoading(877): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.48.56:165][148]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1042.101685
+[2025.09.23-04.48.56:294][154]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-04.48.56:294][154]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1042.209229, Update Interval: 302.118591
+[2025.09.23-04.49.08:040][677]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.09.23-04.49.25:991][677]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.09.23-04.49.26:006][677]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2025.09.23-04.49.26:025][677]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2025.09.23-04.49.26:048][678]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2025.09.23-04.49.40:818][489]LogContentBrowser: Attempting asset rename: NewBlendSpace -> BS_FW_Movement
+[2025.09.23-04.49.40:829][489]LogContentBrowser: End creating deferred item NewBlendSpace
+[2025.09.23-04.49.54:681][ 83]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement.BS_FW_Movement
+[2025.09.23-04.49.54:684][ 83]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.09.23-04.49.54:712][ 83]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-04.49.54:914][ 83]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.09.23-04.49.56:742][139]LogStreaming: Display: FlushAsyncLoading(878): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.49.56:742][139]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Characters/Heroes/Mannequin/Meshes/SKM_Manny (0xDC6109CA4B285866) - The package to load does not exist on disk or in the loader
+[2025.09.23-04.49.56:742][139]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Heroes/Mannequin/Meshes/SKM_Manny.SKM_Manny'
+[2025.09.23-04.49.57:139][158]LogStreaming: Display: FlushAsyncLoading(880): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.50.55:055][982]LogStreaming: Display: FlushAsyncLoading(881): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.52.21:791][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-04.52.21:871][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement] ([1] browsable assets)...
+[2025.09.23-04.52.21:893][140]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement.BS_FW_Movement]
+[2025.09.23-04.52.21:893][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement]
+[2025.09.23-04.52.21:893][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_FW_Movement.uasset" SILENT=true
+[2025.09.23-04.52.21:902][140]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement
+[2025.09.23-04.52.21:902][140]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/BS_FW_Movement0AAAB9E2452CAB6B14B590B983D8F1DC.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_FW_Movement.uasset'
+[2025.09.23-04.52.21:942][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.273 ms (total: 743.147 ms)
+[2025.09.23-04.52.21:978][140]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-04.52.21:978][140]LogContentValidation: Enabled validators:
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-04.52.21:978][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-04.52.21:978][140]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement Validating asset
+[2025.09.23-04.52.22:012][140]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-04.52.30:118][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-04.52.30:195][538]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement] ([1] browsable assets)...
+[2025.09.23-04.52.30:195][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement]
+[2025.09.23-04.52.30:195][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_FW_Movement.uasset" SILENT=true
+[2025.09.23-04.52.30:205][538]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement
+[2025.09.23-04.52.30:206][538]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/BS_FW_MovementC6D7E6AF4360DFF88600CB9F60044481.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_FW_Movement.uasset'
+[2025.09.23-04.52.30:213][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.235 ms (total: 839.383 ms)
+[2025.09.23-04.52.30:271][538]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-04.52.30:271][538]LogContentValidation: Enabled validators:
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-04.52.30:271][538]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-04.52.30:271][538]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/BS_FW_Movement Validating asset
+[2025.09.23-04.52.38:264][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.09.23-04.54.07:922][745]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1353.865723
+[2025.09.23-04.54.08:056][752]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-04.54.08:056][752]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1353.980469, Update Interval: 302.442688
+[2025.09.23-04.54.35:182][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.09.23-04.54.35:192][ 36]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Variant_Combat/Lvl_Combat' took 0.040
+[2025.09.23-04.54.35:193][ 36]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-04.54.35:317][ 36]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.23-04.54.35:317][ 36]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-04.54.35:362][ 36]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Variant_Combat/Anims/ABP_Manny_Combat_Auto1
+[2025.09.23-04.54.35:362][ 36]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_Combat_Auto121E3BDD046D872A165D8AF8BE30E388B.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/Autosaves/Game/Variant_Combat/Anims/ABP_Manny_Combat_Auto1.uasset'
+[2025.09.23-04.54.35:363][ 36]LogFileHelpers: Auto-saving content packages took 0.171
+[2025.09.23-04.54.36:947][ 43]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.54.36:947][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.54.36:987][ 43]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.54.36:987][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.54.37:023][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.09.23-04.54.38:593][119]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-04.54.38:600][119]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-04.54.38:611][119]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.54.38:611][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.54.38:630][119]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.54.38:631][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.54.38:686][119]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-04.54.38:686][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-04.54.38:725][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.23-04.54.43:883][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.23-04.54.43:988][422]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.09.23-04.54.43:998][422]LogSlate: Took 0.008909 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.23-04.54.45:035][422]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.23-04.54.45:073][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.09.23-04.54.45:097][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.23-04.54.45:122][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.23-04.54.58:655][947]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.09.23-04.54.58:667][947]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2025.09.23-04.54.58:681][947]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2025.09.23-04.54.58:712][948]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2025.09.23-04.55.08:790][697]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> BS_Walk_Run
+[2025.09.23-04.55.08:791][697]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2025.09.23-04.55.10:182][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-04.55.10:262][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run] ([1] browsable assets)...
+[2025.09.23-04.55.10:364][757]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run.BS_Walk_Run]
+[2025.09.23-04.55.10:364][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run]
+[2025.09.23-04.55.10:364][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset" SILENT=true
+[2025.09.23-04.55.10:373][757]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run
+[2025.09.23-04.55.10:373][757]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/BS_Walk_Run434ED2DE433EA265277E9CB8F3BADCBF.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset'
+[2025.09.23-04.55.10:394][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.026 ms (total: 1.05 sec)
+[2025.09.23-04.55.10:448][757]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-04.55.10:448][757]LogContentValidation: Enabled validators:
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-04.55.10:448][757]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-04.55.10:448][757]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run Validating asset
+[2025.09.23-04.55.10:491][757]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-04.55.10:975][786]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run.BS_Walk_Run
+[2025.09.23-04.55.10:975][786]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.09.23-04.55.11:075][786]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-04.55.11:335][786]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.09.23-04.55.12:558][819]LogStreaming: Display: FlushAsyncLoading(882): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.14:372][888]LogStreaming: Display: FlushAsyncLoading(884): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.20:212][140]LogStreaming: Display: FlushAsyncLoading(885): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.21:171][175]LogStreaming: Display: FlushAsyncLoading(886): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.21:690][195]LogStreaming: Display: FlushAsyncLoading(887): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.22:465][223]LogStreaming: Display: FlushAsyncLoading(888): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.22:565][225]LogStreaming: Display: FlushAsyncLoading(889): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.55.24:413][302]LogStreaming: Display: FlushAsyncLoading(890): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-04.57.28:368][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-04.57.28:446][ 58]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run] ([1] browsable assets)...
+[2025.09.23-04.57.28:471][ 58]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run.BS_Walk_Run]
+[2025.09.23-04.57.28:471][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run]
+[2025.09.23-04.57.28:471][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset" SILENT=true
+[2025.09.23-04.57.28:481][ 58]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run
+[2025.09.23-04.57.28:482][ 58]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/BS_Walk_RunDCC992504F6C9B77992E3F9AB7DE122A.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset'
+[2025.09.23-04.57.28:508][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.716 ms (total: 1.19 sec)
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: Enabled validators:
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-04.57.28:552][ 58]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-04.57.28:552][ 58]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run Validating asset
+[2025.09.23-04.59.28:754][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.23-04.59.30:225][151]LogSlate: Window 'Save Content' being destroyed
+[2025.09.23-04.59.30:247][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-04.59.30:291][151]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-04.59.30:291][151]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-04.59.30:291][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.23-04.59.30:330][151]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.23-04.59.30:330][151]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_CombatB69F65FA4DD86BB0B6907C8D7BABF1B5.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.23-04.59.30:349][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.652 ms (total: 1.29 sec)
+[2025.09.23-04.59.30:397][151]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-04.59.30:397][151]LogContentValidation: Enabled validators:
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-04.59.30:397][151]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-04.59.30:397][151]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.23-04.59.42:110][748]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1688.048706
+[2025.09.23-04.59.42:242][755]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-04.59.42:242][755]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1688.163330, Update Interval: 315.430756
+[2025.09.23-05.04.38:020][153]LogStreaming: Display: FlushAsyncLoading(891): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.23-05.05.27:455][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.09.23-05.05.28:792][710]LogSlate: Window 'Save Content' being destroyed
+[2025.09.23-05.05.28:810][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-05.05.28:867][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run] ([1] browsable assets)...
+[2025.09.23-05.05.28:900][710]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run.BS_Walk_Run]
+[2025.09.23-05.05.28:900][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run]
+[2025.09.23-05.05.28:900][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset" SILENT=true
+[2025.09.23-05.05.28:909][710]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run
+[2025.09.23-05.05.28:909][710]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/BS_Walk_Run9A9D0C80467852DC5095FAA0BA784838.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/BS_Walk_Run.uasset'
+[2025.09.23-05.05.28:932][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.122 ms (total: 1.41 sec)
+[2025.09.23-05.05.28:979][710]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-05.05.28:979][710]LogContentValidation: Enabled validators:
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-05.05.28:979][710]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-05.05.28:979][710]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run Validating asset
+[2025.09.23-05.05.34:790][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2040.729370
+[2025.09.23-05.05.34:947][ 14]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-05.05.34:947][ 14]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2040.866699, Update Interval: 319.063690
+[2025.09.23-05.06.40:971][451]LogSlate: Window 'BS_Walk_Run' being destroyed
+[2025.09.23-05.06.40:995][451]LogSlate: Window 'BS_Walk_Run' being destroyed
+[2025.09.23-05.06.41:014][451]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.06.41:014][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.06.41:062][451]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.06.41:062][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.06.41:100][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.23-05.06.54:955][424]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-05.06.54:955][424]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.09.23-05.06.54:961][424]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.09.23-05.06.54:980][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.06.55:242][424]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.09.23-05.07.47:102][298]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/ARPG_Ninja/Animations_UE5/BS_Walk_Run.BS_Walk_Run
+[2025.09.23-05.07.47:102][298]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.09.23-05.07.47:130][298]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.07.47:331][298]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2025.09.23-05.07.54:933][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.23-05.08.34:597][972]LogSlate: Took 0.007207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.09.23-05.09.08:376][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.23-05.09.10:367][ 43]LogSlate: Window 'BS_Walk_Run' being destroyed
+[2025.09.23-05.09.10:384][ 43]LogSlate: Window 'BS_Walk_Run' being destroyed
+[2025.09.23-05.09.10:393][ 43]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.10:393][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.10:407][ 43]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.10:407][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.10:455][ 43]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.10:455][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.10:475][ 43]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.10:475][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.10:515][ 43]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.10:515][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.10:553][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.23-05.09.11:655][120]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-05.09.11:661][120]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-05.09.11:661][120]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-05.09.11:662][120]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-05.09.11:662][120]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.297 ms (total: 6.256 ms)
+[2025.09.23-05.09.11:664][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-05.09.11:691][120]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.09.11:703][120]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-05.09.11:705][120]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.443 ms (total: 12.045 ms)
+[2025.09.23-05.09.11:705][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013759s)
+[2025.09.23-05.09.11:705][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013799s)
+[2025.09.23-05.09.11:733][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.09.23-05.09.11:734][120]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-05.09.11:736][120]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-05.09.11:736][120]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-05.09.11:736][120]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-05.09.11:736][120]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-05.09.11:739][120]LogWorldPartition: Display: WorldPartition initialize took 2.952 ms (total: 306.711 ms)
+[2025.09.23-05.09.11:739][120]LogPlayLevel: PIE: World Init took: (0.004757s)
+[2025.09.23-05.09.11:739][120]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.23-05.09.11:739][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-05.09.11:739][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-05.09.11:739][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-05.09.11:739][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-05.09.11:740][120]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-05.09.11:740][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-05.09.11:740][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-05.09.11:740][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-05.09.11:740][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-05.09.11:740][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-05.09.11:740][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-05.09.11:742][120]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-05.09.11:771][120]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-05.09.11:771][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-05.09.11:771][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-05.09.11:771][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-05.09.11:772][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.09.23-05.09.11:772][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.09.23-05.09.11:774][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.09.23-05.09.11:774][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.09.23-05.09.11:774][120]LogInit: FAudioDevice initialized with ID 6.
+[2025.09.23-05.09.11:774][120]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lvl_Combat'.
+[2025.09.23-05.09.11:774][120]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.23-05.09.11:793][120]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-05.09.11:797][120]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-22.09.11
+[2025.09.23-05.09.11:797][120]LogWorld: Bringing up level for play took: 0.003719
+[2025.09.23-05.09.11:800][120]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.09.23-05.09.11:802][120]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-05.09.11:805][120]PIE: Server logged in
+[2025.09.23-05.09.11:807][120]PIE: Play in editor total start time 0.146 seconds.
+[2025.09.23-05.09.11:811][120]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-05.09.11:811][120]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-05.09.11:900][121]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-05.09.45:253][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.09.45:253][470]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.09.45:253][470]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-05.09.45:253][470]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.09.45:254][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.45:254][470]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-05.09.45:256][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-05.09.45:266][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.09.45:291][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.09.45:291][470]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.23-05.09.45:291][470]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.09.23-05.09.45:293][470]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.09.23-05.09.45:301][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.09.23-05.09.45:366][471]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.09.23-05.10.04:535][674]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-05.10.04:535][674]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2025.09.23-05.10.04:551][674]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.09.23-05.10.04:567][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.10.04:840][674]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2025.09.23-05.10.13:972][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.23-05.10.18:368][418]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.10.18:384][418]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.10.18:392][418]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.10.18:392][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.10.18:408][418]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.10.18:408][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.10.18:454][418]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.10.18:454][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.10.18:494][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.23-05.10.19:898][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-05.10.19:904][519]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-05.10.19:904][519]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-05.10.19:904][519]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-05.10.19:904][519]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.059 ms (total: 7.316 ms)
+[2025.09.23-05.10.19:906][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-05.10.19:942][519]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.10.19:952][519]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-05.10.19:955][519]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.181 ms (total: 14.227 ms)
+[2025.09.23-05.10.19:955][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012469s)
+[2025.09.23-05.10.19:955][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.012504s)
+[2025.09.23-05.10.19:978][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.23-05.10.19:980][519]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-05.10.19:982][519]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-05.10.19:982][519]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-05.10.19:982][519]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-05.10.19:982][519]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-05.10.19:984][519]LogWorldPartition: Display: WorldPartition initialize took 2.783 ms (total: 309.494 ms)
+[2025.09.23-05.10.19:984][519]LogPlayLevel: PIE: World Init took: (0.004340s)
+[2025.09.23-05.10.19:985][519]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-05.10.19:985][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-05.10.19:985][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-05.10.19:985][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-05.10.19:985][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-05.10.19:985][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-05.10.19:987][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-05.10.20:014][519]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-05.10.20:014][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-05.10.20:014][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-05.10.20:014][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-05.10.20:015][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.23-05.10.20:015][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.23-05.10.20:017][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.23-05.10.20:017][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.23-05.10.20:017][519]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.23-05.10.20:017][519]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_Combat'.
+[2025.09.23-05.10.20:017][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.23-05.10.20:023][519]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-05.10.20:026][519]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-22.10.20
+[2025.09.23-05.10.20:026][519]LogWorld: Bringing up level for play took: 0.003793
+[2025.09.23-05.10.20:029][519]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.09.23-05.10.20:032][519]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-05.10.20:035][519]PIE: Server logged in
+[2025.09.23-05.10.20:037][519]PIE: Play in editor total start time 0.133 seconds.
+[2025.09.23-05.10.20:041][519]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-05.10.20:041][519]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-05.10.20:128][520]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-05.10.28:534][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.10.28:534][131]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.10.28:534][131]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-05.10.28:534][131]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.10.28:536][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.10.28:536][131]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-05.10.28:538][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-05.10.28:543][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.10.28:567][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.10.28:567][131]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.23-05.10.28:567][131]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.09.23-05.10.28:569][131]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.09.23-05.10.28:577][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.23-05.10.28:636][132]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.09.23-05.10.31:635][299]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-05.10.31:635][299]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.09.23-05.10.31:663][299]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_40
+[2025.09.23-05.10.31:681][299]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.10.31:950][299]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_41
+[2025.09.23-05.10.46:169][ 99]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC.ARPG_Ninja_Anim_UE_Walk_Forward_IPC
+[2025.09.23-05.10.46:169][ 99]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_42
+[2025.09.23-05.10.46:196][ 99]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.10.46:389][ 99]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2025.09.23-05.10.46:444][ 99]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.11.25:841][ 68]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.09.23-05.11.25:854][ 68]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2025.09.23-05.11.29:435][236]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2395.376709
+[2025.09.23-05.11.29:588][243]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.23-05.11.29:588][243]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2395.509521, Update Interval: 355.799438
+[2025.09.23-05.11.44:467][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.23-05.11.45:265][989]LogSlate: Window 'Save Content' being destroyed
+[2025.09.23-05.11.45:279][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-05.11.45:320][989]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-05.11.45:365][989]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.23-05.11.45:365][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-05.11.45:365][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.23-05.11.45:404][989]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.23-05.11.45:405][989]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_Combat1778C62142F5816331345B8119A7B357.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.23-05.11.45:406][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC] ([1] browsable assets)...
+[2025.09.23-05.11.45:428][989]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC.ARPG_Ninja_Anim_UE_Walk_Forward_IPC]
+[2025.09.23-05.11.45:428][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC]
+[2025.09.23-05.11.45:450][989]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC
+[2025.09.23-05.11.45:451][989]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ARPG_Ninja_Anim_UE_Walk_Forward_D33413F348EED3329D84DB8EBB7C94EA.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC.uasset'
+[2025.09.23-05.11.45:464][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.591 ms (total: 1.59 sec)
+[2025.09.23-05.11.45:509][989]LogContentValidation: Display: Starting to validate 2 assets
+[2025.09.23-05.11.45:509][989]LogContentValidation: Enabled validators:
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-05.11.45:509][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-05.11.45:509][989]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.23-05.11.45:509][989]AssetCheck: /Game/ARPG_Ninja/Animations_UE5/ARPG_Ninja_Anim_UE_Walk_Forward_IPC Validating asset
+[2025.09.23-05.11.45:538][989]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.23-05.11.46:750][ 48]LogSlate: Window 'ARPG_Ninja_Anim_UE_Walk_Forward_IPC' being destroyed
+[2025.09.23-05.11.46:762][ 48]LogSlate: Window 'ARPG_Ninja_Anim_UE_Walk_Forward_IPC' being destroyed
+[2025.09.23-05.11.46:770][ 48]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:770][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:786][ 48]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:786][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:832][ 48]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:833][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:857][ 48]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:857][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:865][ 48]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:865][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:905][ 48]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.46:905][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.46:945][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.23-05.11.48:036][124]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-05.11.48:042][124]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-05.11.48:042][124]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-05.11.48:043][124]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-05.11.48:043][124]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 872 us (total: 8.189 ms)
+[2025.09.23-05.11.48:045][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-05.11.48:074][124]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.11.48:085][124]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-05.11.48:087][124]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.234 ms (total: 16.461 ms)
+[2025.09.23-05.11.48:087][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012478s)
+[2025.09.23-05.11.48:087][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.012516s)
+[2025.09.23-05.11.48:110][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.09.23-05.11.48:112][124]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-05.11.48:114][124]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-05.11.48:114][124]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-05.11.48:114][124]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-05.11.48:114][124]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-05.11.48:116][124]LogWorldPartition: Display: WorldPartition initialize took 2.694 ms (total: 312.189 ms)
+[2025.09.23-05.11.48:116][124]LogPlayLevel: PIE: World Init took: (0.004309s)
+[2025.09.23-05.11.48:117][124]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-05.11.48:117][124]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-05.11.48:117][124]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-05.11.48:117][124]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-05.11.48:117][124]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-05.11.48:117][124]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-05.11.48:119][124]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-05.11.48:145][124]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-05.11.48:145][124]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-05.11.48:145][124]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-05.11.48:145][124]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-05.11.48:146][124]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.09.23-05.11.48:146][124]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.09.23-05.11.48:149][124]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.09.23-05.11.48:149][124]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.09.23-05.11.48:149][124]LogInit: FAudioDevice initialized with ID 8.
+[2025.09.23-05.11.48:149][124]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_Combat'.
+[2025.09.23-05.11.48:149][124]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.23-05.11.48:160][124]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-05.11.48:164][124]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-22.11.48
+[2025.09.23-05.11.48:165][124]LogWorld: Bringing up level for play took: 0.003623
+[2025.09.23-05.11.48:167][124]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.09.23-05.11.48:169][124]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-05.11.48:172][124]PIE: Server logged in
+[2025.09.23-05.11.48:173][124]PIE: Play in editor total start time 0.132 seconds.
+[2025.09.23-05.11.48:178][124]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-05.11.48:178][124]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-05.11.48:256][125]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-05.11.52:485][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.11.52:485][413]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.11.52:485][413]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-05.11.52:485][413]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.11.52:486][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.52:486][413]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-05.11.52:489][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-05.11.52:494][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.11.52:520][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.11.52:520][413]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.23-05.11.52:520][413]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.09.23-05.11.52:522][413]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.09.23-05.11.52:529][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.23-05.11.52:590][414]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.09.23-05.12.02:056][ 39]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-05.12.02:057][ 39]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2025.09.23-05.12.02:071][ 39]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.09.23-05.12.02:086][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.12.02:354][ 39]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2025.09.23-05.12.19:765][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.23-05.12.21:522][170]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.12.21:549][170]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.12.21:559][170]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.12.21:559][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.12.21:573][170]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.12.21:573][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.12.21:620][170]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.12.21:620][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.12.21:658][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.09.23-05.12.22:542][234]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-05.12.22:548][234]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-05.12.22:548][234]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-05.12.22:549][234]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-05.12.22:549][234]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 910 us (total: 9.099 ms)
+[2025.09.23-05.12.22:551][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-05.12.22:551][234]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.12.22:563][234]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-05.12.22:566][234]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.419 ms (total: 18.880 ms)
+[2025.09.23-05.12.22:566][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013806s)
+[2025.09.23-05.12.22:566][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013834s)
+[2025.09.23-05.12.22:590][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.09.23-05.12.22:592][234]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-05.12.22:593][234]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-05.12.22:593][234]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-05.12.22:593][234]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-05.12.22:593][234]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-05.12.22:596][234]LogWorldPartition: Display: WorldPartition initialize took 2.716 ms (total: 314.905 ms)
+[2025.09.23-05.12.22:596][234]LogPlayLevel: PIE: World Init took: (0.004350s)
+[2025.09.23-05.12.22:597][234]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-05.12.22:597][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-05.12.22:597][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-05.12.22:597][234]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-05.12.22:597][234]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-05.12.22:597][234]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-05.12.22:600][234]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-05.12.22:626][234]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-05.12.22:626][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-05.12.22:626][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-05.12.22:626][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-05.12.22:626][234]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.23-05.12.22:626][234]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.23-05.12.22:630][234]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.23-05.12.22:630][234]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.23-05.12.22:630][234]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.23-05.12.22:630][234]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_Combat'.
+[2025.09.23-05.12.22:630][234]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.23-05.12.22:633][234]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-05.12.22:637][234]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-22.12.22
+[2025.09.23-05.12.22:637][234]LogWorld: Bringing up level for play took: 0.003666
+[2025.09.23-05.12.22:640][234]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.09.23-05.12.22:642][234]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-05.12.22:644][234]PIE: Server logged in
+[2025.09.23-05.12.22:646][234]PIE: Play in editor total start time 0.098 seconds.
+[2025.09.23-05.12.22:649][234]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-05.12.22:649][234]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-05.12.22:743][235]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-05.12.51:067][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.12.51:067][424]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.12.51:067][424]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-05.12.51:067][424]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.12.51:068][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.12.51:069][424]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-05.12.51:070][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-05.12.51:076][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.12.51:099][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.12.51:100][424]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.23-05.12.51:100][424]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.23-05.12.51:102][424]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.23-05.12.51:109][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.09.23-05.12.51:168][425]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.09.23-05.12.56:613][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.23-05.12.57:701][746]LogSlate: Window 'Save Content' being destroyed
+[2025.09.23-05.12.57:714][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-05.12.57:758][746]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-05.12.57:863][746]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.23-05.12.57:863][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-05.12.57:863][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.23-05.12.57:901][746]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.23-05.12.57:901][746]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_Combat2DFD30E742E65A71E5E7899D1287CF9A.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.23-05.12.57:914][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 200.023 ms (total: 1.79 sec)
+[2025.09.23-05.12.57:957][746]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-05.12.57:957][746]LogContentValidation: Enabled validators:
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-05.12.57:957][746]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-05.12.57:957][746]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.23-05.13.12:051][745]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.23-05.13.12:051][745]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2025.09.23-05.13.12:057][745]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_49
+[2025.09.23-05.13.12:074][745]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.23-05.13.12:339][745]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2025.09.23-05.13.49:284][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_51
+[2025.09.23-05.14.04:338][773]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_52
+[2025.09.23-05.14.29:355][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-05.14.29:429][190]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-05.14.29:446][190]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.23-05.14.29:446][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-05.14.29:446][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.23-05.14.29:485][190]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.23-05.14.29:486][190]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_CombatB9351B0048F06E41A8B06F86832BDE0E.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.23-05.14.29:498][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.631 ms (total: 1.94 sec)
+[2025.09.23-05.14.29:558][190]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-05.14.29:558][190]LogContentValidation: Enabled validators:
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-05.14.29:558][190]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-05.14.29:558][190]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.23-05.14.30:315][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.09.23-05.14.34:641][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.23-05.14.35:280][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.23-05.14.35:340][500]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.23-05.14.35:364][500]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.23-05.14.35:364][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.23-05.14.35:364][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.23-05.14.35:402][500]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.23-05.14.35:403][500]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Saved/ABP_Manny_CombatC408262841FB7C4B0CBA55BBB2F23CC0.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/onevone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.23-05.14.35:423][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.326 ms (total: 2.08 sec)
+[2025.09.23-05.14.35:487][500]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.23-05.14.35:487][500]LogContentValidation: Enabled validators:
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.23-05.14.35:487][500]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.23-05.14.35:487][500]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.23-05.14.48:104][245]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.14.48:121][245]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.23-05.14.48:169][245]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.14.48:169][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.14.48:183][245]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.14.48:183][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.14.48:229][245]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.14.48:229][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.14.48:266][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.09.23-05.14.49:278][312]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.23-05.14.49:282][312]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.23-05.14.49:283][312]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.23-05.14.49:283][312]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.23-05.14.49:283][312]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 972 us (total: 10.072 ms)
+[2025.09.23-05.14.49:285][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.23-05.14.49:285][312]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.14.49:297][312]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.23-05.14.49:299][312]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.314 ms (total: 21.195 ms)
+[2025.09.23-05.14.49:299][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013809s)
+[2025.09.23-05.14.49:299][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013836s)
+[2025.09.23-05.14.49:323][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.23-05.14.49:325][312]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.23-05.14.49:326][312]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.23-05.14.49:326][312]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.23-05.14.49:326][312]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.23-05.14.49:326][312]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.23-05.14.49:329][312]LogWorldPartition: Display: WorldPartition initialize took 2.726 ms (total: 317.631 ms)
+[2025.09.23-05.14.49:329][312]LogPlayLevel: PIE: World Init took: (0.004377s)
+[2025.09.23-05.14.49:329][312]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.09.23-05.14.49:329][312]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.23-05.14.49:329][312]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.23-05.14.49:330][312]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.23-05.14.49:330][312]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.23-05.14.49:330][312]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.23-05.14.49:330][312]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.23-05.14.49:330][312]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.23-05.14.49:330][312]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.23-05.14.49:330][312]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.23-05.14.49:330][312]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.23-05.14.49:330][312]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.23-05.14.49:333][312]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.23-05.14.49:360][312]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.23-05.14.49:360][312]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.23-05.14.49:360][312]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.23-05.14.49:360][312]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.23-05.14.49:360][312]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.09.23-05.14.49:360][312]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.09.23-05.14.49:363][312]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.09.23-05.14.49:363][312]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.09.23-05.14.49:363][312]LogInit: FAudioDevice initialized with ID 10.
+[2025.09.23-05.14.49:363][312]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lvl_Combat'.
+[2025.09.23-05.14.49:363][312]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.23-05.14.49:370][312]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.23-05.14.49:374][312]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.22-22.14.49
+[2025.09.23-05.14.49:374][312]LogWorld: Bringing up level for play took: 0.003575
+[2025.09.23-05.14.49:376][312]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2025.09.23-05.14.49:378][312]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'SM_Countess'
+[2025.09.23-05.14.49:382][312]PIE: Server logged in
+[2025.09.23-05.14.49:383][312]PIE: Play in editor total start time 0.101 seconds.
+[2025.09.23-05.14.49:388][312]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'LeftShift'
+[2025.09.23-05.14.49:388][312]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'Gamepad_FaceButton_Right'
+[2025.09.23-05.14.49:461][313]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.23-05.15.20:381][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.15.20:381][669]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.23-05.15.20:381][669]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.23-05.15.20:381][669]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.23-05.15.20:382][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.15.20:382][669]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.23-05.15.20:383][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.23-05.15.20:390][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.23-05.15.20:413][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.23-05.15.20:414][669]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.23-05.15.20:414][669]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.09.23-05.15.20:416][669]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.09.23-05.15.20:424][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.23-05.15.20:493][670]LogPlayLevel: Display: Destroying online subsystem :Context_62
