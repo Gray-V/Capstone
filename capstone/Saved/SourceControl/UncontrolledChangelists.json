@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Phase_GDC.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/IK_Phase_GDC.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/MannyPhase.uasset"
+			]
+		}
+	]
+}
