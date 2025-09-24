@@ -7,7 +7,24 @@
 			"files": [
 				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Phase_GDC.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/IK_Phase_GDC.uasset",
-				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/MannyPhase.uasset"
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/MannyPhase.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Phase_GDC.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/MannyPhase.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/IK_Phase_GDC.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Blueprints/BP_CombatCharacter.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Unequip_Idle1.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Equip_Idle1.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ParagonPhase/Characters/Heroes/Phase/Meshes/phase_Skeleton.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Idle1.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Unequip_Idle1_Montage.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Equip_Idle1_Montage.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Actions/IA_EquipToggle.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Input/IMC_Combat.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/Ninja_sword.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/SK_Ninja_sword.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/SKM_Ninja_sword.uasset"
 			]
 		}
 	]
