@@ -7633,3 +7633,8 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2025.09.24-08.33.41:618][844]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
 [2025.09.24-08.33.41:618][844]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
 [2025.09.24-08.33.41:618][844]LogPakFile: Destroying PakPlatformFile
+[2025.09.24-08.33.42:547][844]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.24-08.33.42:587][844]LogExit: Exiting.
+[2025.09.24-08.33.42:589][844]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/liamo/GitHub/1v1-Me/capstone/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini', retrying in .5s...
+[2025.09.24-08.33.43:090][844]LogFileManager: Warning: DeleteFile recovered during retry!
+[2025.09.24-08.33.43:121][844]Log file closed, 09/24/25 01:33:43
