@@ -3155,3 +3155,990 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2025.09.24-06.32.42:897][ 11]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
 [2025.09.24-06.32.42:910][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
 [2025.09.24-06.32.42:945][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2025.09.24-06.34.09:211][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8767.880859
+[2025.09.24-06.34.10:210][924]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-06.34.10:210][924]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8768.547852, Update Interval: 330.910980
+[2025.09.24-06.34.52:457][495]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Variant_Combat/Anims/AM_ChargedAttack.AM_ChargedAttack
+[2025.09.24-06.34.52:457][495]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_72
+[2025.09.24-06.34.52:494][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_72:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.34.52:774][495]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_73
+[2025.09.24-06.34.53:184][495]LogSlate: Took 0.009032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.09.24-06.34.53:185][495]LogSlate: Warning: Could not find Glyph Index 0 with codepoint U+f061, getting last resort font data ../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf
+[2025.09.24-06.34.53:185][495]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: ' (U+f061)'
+[2025.09.24-06.34.53:200][495]LogSlate: Took 0.014696 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.24-06.34.53:200][495]LogSlate: Warning: Could not find Glyph Index 0 with codepoint U+f061, getting last resort font data ../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf
+[2025.09.24-06.34.53:200][495]LogSlate: Warning: Could not find Glyph Index 0 with codepoint U+f0e2, getting last resort font data ../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf
+[2025.09.24-06.34.53:200][495]LogSlate: Warning: Could not find Glyph Index 0 with codepoint U+f0e2, getting last resort font data ../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf
+[2025.09.24-06.34.53:362][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_74
+[2025.09.24-06.35.27:062][947]LogSlate: Window 'AM_ChargedAttack' being destroyed
+[2025.09.24-06.35.27:103][947]LogSlate: Window 'AM_ChargedAttack' being destroyed
+[2025.09.24-06.35.27:118][947]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.35.27:118][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.35.27:157][947]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.35.27:158][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.35.27:208][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.09.24-06.35.37:157][664]LogAssetEditorSubsystem: Opening Asset editor for IKRetargeter /Game/MainContent/Characters/MannyPhase.MannyPhase
+[2025.09.24-06.35.37:158][664]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_75
+[2025.09.24-06.35.37:242][664]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_75:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.36.24:707][625]LogSlate: Window 'Export Animations' being destroyed
+[2025.09.24-06.36.26:342][625]LogSlate: Window 'Batch Export Options' being destroyed
+[2025.09.24-06.36.26:388][625]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MainContent/Characters/Anims/MM_Attack_01.MM_Attack_01:AssetImportData
+[2025.09.24-06.36.26:397][625]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MainContent/Characters/Anims/MM_Attack_02.MM_Attack_02:AssetImportData
+[2025.09.24-06.36.26:408][625]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MainContent/Characters/Anims/MM_Attack_03.MM_Attack_03:AssetImportData
+[2025.09.24-06.36.26:418][625]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MainContent/Characters/Anims/MM_ChargedAttack.MM_ChargedAttack:AssetImportData
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name root already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pelvis already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name spine_01 already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name spine_02 already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name spine_03 already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name clavicle_l already exists
+[2025.09.24-06.36.26:449][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name upperarm_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name lowerarm_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name hand_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_metacarpal_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_02_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_03_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_02_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_03_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_metacarpal_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_02_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_03_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_02_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_03_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_02_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_03_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name weapon_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name lowerarm_twist_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name upperarm_twist_01_l already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name clavicle_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name upperarm_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name lowerarm_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name hand_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_metacarpal_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_02_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name index_03_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_02_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name middle_03_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_metacarpal_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_02_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name pinky_03_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_02_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ring_03_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_02_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thumb_03_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name weapon_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name lowerarm_twist_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name upperarm_twist_01_r already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name neck_01 already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name neck_02 already exists
+[2025.09.24-06.36.26:450][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name head already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thigh_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name calf_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name calf_twist_01_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name foot_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ball_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thigh_twist_01_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thigh_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name calf_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name calf_twist_01_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name foot_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ball_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name thigh_twist_01_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_foot_root already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_foot_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_foot_r already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_hand_root already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_hand_gun already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_hand_l already exists
+[2025.09.24-06.36.26:451][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_01 : Track with name ik_hand_r already exists
+[2025.09.24-06.36.26:453][625]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_01.MM_Attack_01 (Required Memory Estimate: 0.66 MB)
+[2025.09.24-06.36.26:458][625]LogAnimationCompression: Display: Storing compressed animation data for /Game/MainContent/Characters/Anims/MM_Attack_01.MM_Attack_01, at AnimationSequence/849687f31c32942932e5f89d6b6fb06cd4e99355
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name root already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pelvis already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name spine_01 already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name spine_02 already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name spine_03 already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name clavicle_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name upperarm_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name lowerarm_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name hand_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_metacarpal_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_02_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_03_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_02_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_03_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_metacarpal_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_02_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_03_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_02_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_03_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_02_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_03_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name weapon_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name lowerarm_twist_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name upperarm_twist_01_l already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name clavicle_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name upperarm_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name lowerarm_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name hand_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_metacarpal_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_01_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_02_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name index_03_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_01_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_02_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name middle_03_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_metacarpal_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_01_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_02_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name pinky_03_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_01_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_02_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ring_03_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_01_r already exists
+[2025.09.24-06.36.26:460][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_02_r already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thumb_03_r already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name weapon_r already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name lowerarm_twist_01_r already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name upperarm_twist_01_r already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name neck_01 already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name neck_02 already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name head already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thigh_l already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name calf_l already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name calf_twist_01_l already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name foot_l already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ball_l already exists
+[2025.09.24-06.36.26:461][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thigh_twist_01_l already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thigh_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name calf_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name calf_twist_01_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name foot_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ball_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name thigh_twist_01_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_foot_root already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_foot_l already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_foot_r already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_hand_root already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_hand_gun already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_hand_l already exists
+[2025.09.24-06.36.26:462][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_02 : Track with name ik_hand_r already exists
+[2025.09.24-06.36.26:462][625]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_02.MM_Attack_02 (Required Memory Estimate: 0.66 MB)
+[2025.09.24-06.36.26:466][625]LogAnimationCompression: Display: Storing compressed animation data for /Game/MainContent/Characters/Anims/MM_Attack_02.MM_Attack_02, at AnimationSequence/24b149a696f70bf9991f9ca8a7539cacedf2139e
+[2025.09.24-06.36.26:474][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name root already exists
+[2025.09.24-06.36.26:474][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pelvis already exists
+[2025.09.24-06.36.26:474][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name spine_01 already exists
+[2025.09.24-06.36.26:474][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name spine_02 already exists
+[2025.09.24-06.36.26:474][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name spine_03 already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name clavicle_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name upperarm_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name lowerarm_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name hand_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_metacarpal_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_02_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_03_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_02_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_03_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_metacarpal_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_02_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_03_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_02_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_03_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_02_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_03_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name weapon_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name lowerarm_twist_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name upperarm_twist_01_l already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name clavicle_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name upperarm_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name lowerarm_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name hand_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_metacarpal_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_02_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name index_03_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_02_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name middle_03_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_metacarpal_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_02_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name pinky_03_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_02_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ring_03_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_02_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thumb_03_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name weapon_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name lowerarm_twist_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name upperarm_twist_01_r already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name neck_01 already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name neck_02 already exists
+[2025.09.24-06.36.26:475][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name head already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thigh_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name calf_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name calf_twist_01_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name foot_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ball_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thigh_twist_01_l already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thigh_r already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name calf_r already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name calf_twist_01_r already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name foot_r already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ball_r already exists
+[2025.09.24-06.36.26:476][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name thigh_twist_01_r already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_foot_root already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_foot_l already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_foot_r already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_hand_root already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_hand_gun already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_hand_l already exists
+[2025.09.24-06.36.26:477][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_Attack_03 : Track with name ik_hand_r already exists
+[2025.09.24-06.36.26:477][625]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_03.MM_Attack_03 (Required Memory Estimate: 1.01 MB)
+[2025.09.24-06.36.26:483][625]LogAnimationCompression: Display: Storing compressed animation data for /Game/MainContent/Characters/Anims/MM_Attack_03.MM_Attack_03, at AnimationSequence/4a6384193b3802d6ef521edfa3be4f9ebe55e654
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name root already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pelvis already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name spine_01 already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name spine_02 already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name spine_03 already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name clavicle_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name upperarm_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name lowerarm_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name hand_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_metacarpal_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_01_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_02_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_03_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_01_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_02_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_03_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_metacarpal_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_01_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_02_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_03_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_01_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_02_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_03_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_01_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_02_l already exists
+[2025.09.24-06.36.26:490][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_03_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name weapon_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name lowerarm_twist_01_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name upperarm_twist_01_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name clavicle_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name upperarm_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name lowerarm_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name hand_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_metacarpal_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_02_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name index_03_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_02_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name middle_03_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_metacarpal_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_02_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name pinky_03_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_02_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ring_03_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_02_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thumb_03_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name weapon_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name lowerarm_twist_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name upperarm_twist_01_r already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name neck_01 already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name neck_02 already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name head already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thigh_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name calf_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name calf_twist_01_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name foot_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ball_l already exists
+[2025.09.24-06.36.26:491][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thigh_twist_01_l already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thigh_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name calf_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name calf_twist_01_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name foot_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ball_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name thigh_twist_01_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_foot_root already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_foot_l already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_foot_r already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_hand_root already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_hand_gun already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_hand_l already exists
+[2025.09.24-06.36.26:493][625]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/MM_ChargedAttack : Track with name ik_hand_r already exists
+[2025.09.24-06.36.26:494][625]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MainContent/Characters/Anims/MM_ChargedAttack.MM_ChargedAttack (Required Memory Estimate: 1.10 MB)
+[2025.09.24-06.36.26:501][625]LogAnimationCompression: Display: Storing compressed animation data for /Game/MainContent/Characters/Anims/MM_ChargedAttack.MM_ChargedAttack, at AnimationSequence/d4c679f1dab1b65e414c1ea49a1995ce53553925
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: Phase_ComboAttack
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: MM_Attack_01
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: MM_Attack_02
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: MM_Attack_03
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: Phase_ChargedAttack
+[2025.09.24-06.36.26:554][625]LogTemp: Display: Duplicate and Retarget - New Asset Created: MM_ChargedAttack
+[2025.09.24-06.36.31:746][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.36.31:821][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/MM_Attack_01] ([1] browsable assets)...
+[2025.09.24-06.36.31:847][808]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_01.MM_Attack_01]
+[2025.09.24-06.36.31:847][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/MM_Attack_01]
+[2025.09.24-06.36.31:869][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/MM_Attack_01
+[2025.09.24-06.36.31:869][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/MM_Attack_012D551BC6459CD36B7F92BA8CA3D1A74C.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_01.uasset'
+[2025.09.24-06.36.31:871][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/MM_Attack_02] ([1] browsable assets)...
+[2025.09.24-06.36.31:883][808]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_02.MM_Attack_02]
+[2025.09.24-06.36.31:883][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/MM_Attack_02]
+[2025.09.24-06.36.31:904][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/MM_Attack_02
+[2025.09.24-06.36.31:904][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/MM_Attack_0212F5E7F442FAA9856898ECB014D753EF.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_02.uasset'
+[2025.09.24-06.36.31:906][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/MM_Attack_03] ([1] browsable assets)...
+[2025.09.24-06.36.31:915][808]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/MM_Attack_03.MM_Attack_03]
+[2025.09.24-06.36.31:915][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/MM_Attack_03]
+[2025.09.24-06.36.31:937][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/MM_Attack_03
+[2025.09.24-06.36.31:937][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/MM_Attack_035147599C4D374CAA2A2D169DBC207836.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_03.uasset'
+[2025.09.24-06.36.31:939][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/MM_ChargedAttack] ([1] browsable assets)...
+[2025.09.24-06.36.31:947][808]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/MM_ChargedAttack.MM_ChargedAttack]
+[2025.09.24-06.36.31:947][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/MM_ChargedAttack]
+[2025.09.24-06.36.31:968][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/MM_ChargedAttack
+[2025.09.24-06.36.31:968][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/MM_ChargedAttack1932F5E04E6866DDA304CCB11CA36252.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_ChargedAttack.uasset'
+[2025.09.24-06.36.31:970][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/Phase_ChargedAttack] ([1] browsable assets)...
+[2025.09.24-06.36.31:987][808]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/MainContent/Characters/Anims/Phase_ChargedAttack.Phase_ChargedAttack]
+[2025.09.24-06.36.31:987][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/Phase_ChargedAttack]
+[2025.09.24-06.36.31:996][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/Phase_ChargedAttack
+[2025.09.24-06.36.31:996][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Phase_ChargedAttackDEFA9220432901E94AB23C9647CC8E77.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_ChargedAttack.uasset'
+[2025.09.24-06.36.31:997][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/Phase_ComboAttack] ([1] browsable assets)...
+[2025.09.24-06.36.32:017][808]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/MainContent/Characters/Anims/Phase_ComboAttack.Phase_ComboAttack]
+[2025.09.24-06.36.32:017][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/Phase_ComboAttack]
+[2025.09.24-06.36.32:027][808]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/Phase_ComboAttack
+[2025.09.24-06.36.32:027][808]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Phase_ComboAttack51899D0D4B03A89501E7CFBB9A955FBF.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_ComboAttack.uasset'
+[2025.09.24-06.36.32:048][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 302.757 ms (total: 6.30 sec)
+[2025.09.24-06.36.32:100][808]LogContentValidation: Display: Starting to validate 6 assets
+[2025.09.24-06.36.32:100][808]LogContentValidation: Enabled validators:
+[2025.09.24-06.36.32:100][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.36.32:100][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.36.32:100][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.36.32:101][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.36.32:101][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.36.32:101][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/MM_Attack_01 Validating asset
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/MM_Attack_02 Validating asset
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/MM_Attack_03 Validating asset
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/MM_ChargedAttack Validating asset
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/Phase_ChargedAttack Validating asset
+[2025.09.24-06.36.32:101][808]AssetCheck: /Game/MainContent/Characters/Anims/Phase_ComboAttack Validating asset
+[2025.09.24-06.36.32:127][808]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.24-06.36.57:550][937]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.24-06.36.57:550][937]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_76
+[2025.09.24-06.36.57:570][937]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_77
+[2025.09.24-06.36.57:601][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_77:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.36.57:904][937]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_78
+[2025.09.24-06.38.20:963][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.24-06.38.33:952][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.24-06.38.34:956][142]LogSlate: Window 'Save Content' being destroyed
+[2025.09.24-06.38.34:967][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.38.35:009][142]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.24-06.38.35:040][142]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.24-06.38.35:040][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.24-06.38.35:040][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.24-06.38.35:082][142]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.24-06.38.35:082][142]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/ABP_Manny_Combat70F167454DB3C7FCF654F8AD0574B7A2.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.24-06.38.35:084][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ARPG_Ninja/Demo/Weapon/Materials/weapon] ([1] browsable assets)...
+[2025.09.24-06.38.35:084][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/ARPG_Ninja/Demo/Weapon/Materials/weapon]
+[2025.09.24-06.38.35:084][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ARPG_Ninja/Demo/Weapon/Materials/weapon" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Materials/weapon.uasset" SILENT=true
+[2025.09.24-06.38.35:091][142]LogSavePackage: Moving output files for package: /Game/ARPG_Ninja/Demo/Weapon/Materials/weapon
+[2025.09.24-06.38.35:091][142]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/weapon0697D51D4AA9A685A540D8BE9B787EB8.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Materials/weapon.uasset'
+[2025.09.24-06.38.35:104][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.703 ms (total: 6.44 sec)
+[2025.09.24-06.38.35:148][142]LogContentValidation: Display: Starting to validate 2 assets
+[2025.09.24-06.38.35:148][142]LogContentValidation: Enabled validators:
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.38.35:148][142]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.38.35:148][142]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.24-06.38.35:148][142]AssetCheck: /Game/ARPG_Ninja/Demo/Weapon/Materials/weapon Validating asset
+[2025.09.24-06.38.35:178][142]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.24-06.39.41:280][114]LogSlate: Window 'Export Animations' being destroyed
+[2025.09.24-06.39.43:112][114]LogSlate: Window 'Batch Export Options' being destroyed
+[2025.09.24-06.39.43:132][114]LogStreaming: Display: FlushAsyncLoading(981): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-06.39.43:186][114]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon.Phase_Idle_no_weapon:FbxAnimSequenceImportData_0
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name root already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pelvis already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name spine_01 already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name spine_02 already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name spine_03 already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name clavicle_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name upperarm_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name lowerarm_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name hand_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_metacarpal_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_02_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_03_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_02_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_03_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_metacarpal_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_02_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_03_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_02_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_03_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_02_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_03_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name weapon_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name lowerarm_twist_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name upperarm_twist_01_l already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name clavicle_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name upperarm_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name lowerarm_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name hand_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_metacarpal_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_02_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name index_03_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_02_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name middle_03_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_metacarpal_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_02_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name pinky_03_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_02_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ring_03_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_02_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thumb_03_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name weapon_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name lowerarm_twist_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name upperarm_twist_01_r already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name neck_01 already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name neck_02 already exists
+[2025.09.24-06.39.43:216][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name head already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thigh_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name calf_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name calf_twist_01_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name foot_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ball_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thigh_twist_01_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thigh_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name calf_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name calf_twist_01_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name foot_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ball_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name thigh_twist_01_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_foot_root already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_foot_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_foot_r already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_hand_root already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_hand_gun already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_hand_l already exists
+[2025.09.24-06.39.43:217][114]LogScript: Warning: Script Msg: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon : Track with name ik_hand_r already exists
+[2025.09.24-06.39.43:218][114]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon.Phase_Idle_no_weapon (Required Memory Estimate: 1.98 MB)
+[2025.09.24-06.39.43:228][114]LogTemp: Display: Duplicate and Retarget - New Asset Created: Phase_Idle_no_weapon
+[2025.09.24-06.39.43:240][114]LogAnimationCompression: Display: Storing compressed animation data for /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon.Phase_Idle_no_weapon, at AnimationSequence/f5cabe4288a220870d7f6c685f742e43ae30d297
+[2025.09.24-06.39.45:557][179]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.39.45:605][179]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/Phase_Idle_no_weapon] ([1] browsable assets)...
+[2025.09.24-06.39.45:617][179]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon.Phase_Idle_no_weapon]
+[2025.09.24-06.39.45:617][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/Phase_Idle_no_weapon]
+[2025.09.24-06.39.45:639][179]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon
+[2025.09.24-06.39.45:639][179]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Phase_Idle_no_weapon60342F5444DE6EE2A4E07895EAE169FA.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Idle_no_weapon.uasset'
+[2025.09.24-06.39.45:662][179]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.940 ms (total: 6.54 sec)
+[2025.09.24-06.39.45:696][179]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.39.45:696][179]LogContentValidation: Enabled validators:
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.39.45:696][179]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.39.45:696][179]AssetCheck: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon Validating asset
+[2025.09.24-06.39.45:772][179]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.24-06.40.15:217][431]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9133.867188
+[2025.09.24-06.40.15:364][439]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-06.40.15:364][439]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9133.992188, Update Interval: 344.646149
+[2025.09.24-06.40.43:784][988]LogSlate: Took 0.006407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.09.24-06.41.14:067][263]LogSlate: Window 'Change Variable Type' being destroyed
+[2025.09.24-06.41.51:118][152]LogSlate: Window 'Change Variable Type' being destroyed
+[2025.09.24-06.46.45:045][ 71]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9523.657227
+[2025.09.24-06.46.45:179][ 78]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-06.46.45:179][ 78]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9523.771484, Update Interval: 351.505493
+[2025.09.24-06.49.49:538][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.09.24-06.49.49:542][831]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Variant_Combat/Lvl_Combat' took 0.034
+[2025.09.24-06.49.49:542][831]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.24-06.49.49:565][831]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.24-06.49.49:565][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.24-06.49.49:603][831]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Variant_Combat/Anims/ABP_Manny_Combat_Auto6
+[2025.09.24-06.49.49:603][831]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/ABP_Manny_Combat_Auto653F29B8C48422E7612ABEC9E40850FBE.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Autosaves/Game/Variant_Combat/Anims/ABP_Manny_Combat_Auto6.uasset'
+[2025.09.24-06.49.49:604][831]LogFileHelpers: Auto-saving content packages took 0.062
+[2025.09.24-06.50.46:931][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.24-06.50.51:828][ 40]LogSlate: Window 'Asset Browser' being destroyed
+[2025.09.24-06.50.51:837][ 40]LogSlate: Window 'Asset Browser' being destroyed
+[2025.09.24-06.50.51:848][ 40]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.24-06.50.51:856][ 40]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.24-06.50.51:904][ 40]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.50.51:904][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.50.51:957][ 40]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.50.51:957][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.50.51:970][ 40]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.50.51:971][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.50.52:018][ 40]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.50.52:018][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.50.52:058][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.24-06.50.56:132][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.50.56:181][304]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.24-06.50.56:195][304]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.24-06.50.56:195][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.24-06.50.56:195][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.24-06.50.56:238][304]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.24-06.50.56:239][304]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/ABP_Manny_Combat88F91676445B33A36DDB38B8BB71584C.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.24-06.50.56:256][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.588 ms (total: 6.67 sec)
+[2025.09.24-06.50.56:306][304]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.50.56:306][304]LogContentValidation: Enabled validators:
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.50.56:306][304]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.50.56:306][304]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.24-06.50.58:177][437]LogSlate: Window 'Content Browser' being destroyed
+[2025.09.24-06.50.58:221][437]LogSlate: Window 'Content Browser' being destroyed
+[2025.09.24-06.50.59:370][527]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.24-06.50.59:375][527]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-06.50.59:375][527]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.24-06.50.59:376][527]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.24-06.50.59:376][527]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.261 ms (total: 6.631 ms)
+[2025.09.24-06.50.59:379][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-06.50.59:379][527]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.50.59:390][527]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.24-06.50.59:392][527]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.266 ms (total: 11.775 ms)
+[2025.09.24-06.50.59:392][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012868s)
+[2025.09.24-06.50.59:392][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.012914s)
+[2025.09.24-06.50.59:419][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.24-06.50.59:425][527]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.24-06.50.59:426][527]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-06.50.59:426][527]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-06.50.59:426][527]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.24-06.50.59:426][527]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.24-06.50.59:429][527]LogWorldPartition: Display: WorldPartition initialize took 2.655 ms (total: 394.888 ms)
+[2025.09.24-06.50.59:429][527]LogPlayLevel: PIE: World Init took: (0.004343s)
+[2025.09.24-06.50.59:430][527]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.24-06.50.59:430][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-06.50.59:430][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-06.50.59:430][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-06.50.59:430][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-06.50.59:430][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-06.50.59:432][527]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-06.50.59:460][527]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.24-06.50.59:460][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-06.50.59:460][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-06.50.59:460][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-06.50.59:460][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.09.24-06.50.59:460][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.09.24-06.50.59:464][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.09.24-06.50.59:464][527]LogInit: FAudioDevice initialized with ID 6.
+[2025.09.24-06.50.59:464][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.09.24-06.50.59:464][527]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lvl_Combat'.
+[2025.09.24-06.50.59:464][527]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.24-06.50.59:497][527]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.24-06.50.59:501][527]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.23-23.50.59
+[2025.09.24-06.50.59:501][527]LogWorld: Bringing up level for play took: 0.003955
+[2025.09.24-06.50.59:503][527]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2025.09.24-06.50.59:509][527]PIE: Server logged in
+[2025.09.24-06.50.59:511][527]PIE: Play in editor total start time 0.136 seconds.
+[2025.09.24-06.50.59:600][528]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.24-06.51.49:316][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.51.49:316][238]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.51.49:316][238]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.24-06.51.49:317][238]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.51.49:318][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.51.49:318][238]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.24-06.51.49:319][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-06.51.49:326][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.51.49:351][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.51.49:351][238]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.24-06.51.49:351][238]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.09.24-06.51.49:353][238]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.09.24-06.51.49:364][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.24-06.51.49:402][239]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2025.09.24-06.52.14:775][978]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.24-06.52.14:775][978]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_79
+[2025.09.24-06.52.14:790][978]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_80
+[2025.09.24-06.52.14:806][978]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_80:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.52.15:155][978]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_81
+[2025.09.24-06.52.24:008][439]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle1.Phase_Idle1
+[2025.09.24-06.52.24:009][439]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_82
+[2025.09.24-06.52.24:034][439]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_82:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.52.24:224][439]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_83
+[2025.09.24-06.52.24:280][439]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_82:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.52.24:580][439]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_84
+[2025.09.24-06.52.25:914][468]LogStreaming: Display: FlushAsyncLoading(982): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-06.53.05:865][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.09.24-06.53.11:110][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9909.685547
+[2025.09.24-06.53.11:278][647]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-06.53.11:278][647]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9909.819336, Update Interval: 331.927246
+[2025.09.24-06.53.11:630][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.24-06.53.23:177][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.09.24-06.53.24:511][264]LogSlate: Window 'Save Content' being destroyed
+[2025.09.24-06.53.24:527][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.53.24:572][264]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.24-06.53.24:632][264]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.24-06.53.24:632][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.24-06.53.24:632][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.24-06.53.24:670][264]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.24-06.53.24:671][264]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/ABP_Manny_CombatD0F75C1141A9373D34B30DA73C1526AA.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.24-06.53.24:684][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.254 ms (total: 6.82 sec)
+[2025.09.24-06.53.24:726][264]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.53.24:726][264]LogContentValidation: Enabled validators:
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.53.24:726][264]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.53.24:726][264]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.24-06.53.26:093][332]LogSlate: Window 'Phase_Idle1' being destroyed
+[2025.09.24-06.53.26:103][332]LogSlate: Window 'Phase_Idle1' being destroyed
+[2025.09.24-06.53.26:109][332]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:109][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:128][332]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:128][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:178][332]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:178][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:200][332]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:200][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:211][332]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:211][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:251][332]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.26:251][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.26:290][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.24-06.53.27:621][423]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.24-06.53.27:625][423]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-06.53.27:625][423]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.24-06.53.27:626][423]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.24-06.53.27:626][423]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 965 us (total: 7.597 ms)
+[2025.09.24-06.53.27:628][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-06.53.27:628][423]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.53.27:639][423]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.24-06.53.27:641][423]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.251 ms (total: 14.027 ms)
+[2025.09.24-06.53.27:641][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013083s)
+[2025.09.24-06.53.27:641][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013110s)
+[2025.09.24-06.53.27:667][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.24-06.53.27:670][423]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.24-06.53.27:671][423]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-06.53.27:671][423]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-06.53.27:671][423]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.24-06.53.27:671][423]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.24-06.53.27:674][423]LogWorldPartition: Display: WorldPartition initialize took 2.627 ms (total: 397.515 ms)
+[2025.09.24-06.53.27:674][423]LogPlayLevel: PIE: World Init took: (0.004266s)
+[2025.09.24-06.53.27:675][423]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.24-06.53.27:675][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-06.53.27:675][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-06.53.27:675][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-06.53.27:675][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-06.53.27:675][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-06.53.27:677][423]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-06.53.27:704][423]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.24-06.53.27:704][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-06.53.27:704][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-06.53.27:704][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-06.53.27:704][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.24-06.53.27:704][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.24-06.53.27:707][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.24-06.53.27:707][423]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.24-06.53.27:707][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.24-06.53.27:707][423]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_Combat'.
+[2025.09.24-06.53.27:707][423]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.24-06.53.27:712][423]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.24-06.53.27:715][423]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.23-23.53.27
+[2025.09.24-06.53.27:715][423]LogWorld: Bringing up level for play took: 0.003667
+[2025.09.24-06.53.27:719][423]LogOnline: OSS: Created online subsystem instance for: :Context_91
+[2025.09.24-06.53.27:723][423]PIE: Server logged in
+[2025.09.24-06.53.27:726][423]PIE: Play in editor total start time 0.101 seconds.
+[2025.09.24-06.53.27:807][424]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.24-06.53.54:979][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.53.54:979][442]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.53.54:979][442]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.24-06.53.54:979][442]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.53.54:981][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.54:981][442]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.24-06.53.54:982][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-06.53.54:988][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.53.55:013][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.53.55:013][442]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.24-06.53.55:013][442]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.09.24-06.53.55:015][442]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.09.24-06.53.55:025][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.09.24-06.53.55:061][443]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2025.09.24-06.54.05:941][131]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle1.Phase_Idle1
+[2025.09.24-06.54.05:941][131]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_85
+[2025.09.24-06.54.05:958][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.06:202][131]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_86
+[2025.09.24-06.54.06:307][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.06:529][131]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_87
+[2025.09.24-06.54.07:475][158]LogStreaming: Display: FlushAsyncLoading(986): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-06.54.11:491][339]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.11:525][339]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_88
+[2025.09.24-06.54.11:628][339]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.11:628][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.11:686][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.24-06.54.12:510][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.12:536][343]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_89
+[2025.09.24-06.54.12:794][343]LogWorld: UWorld::CleanupWorld for World_88, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.12:794][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.12:853][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.24-06.54.25:626][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.24-06.54.26:759][863]LogSlate: Window 'Save Content' being destroyed
+[2025.09.24-06.54.26:776][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.54.26:808][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/Phase_Idle_no_weapon] ([1] browsable assets)...
+[2025.09.24-06.54.26:848][863]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon.Phase_Idle_no_weapon]
+[2025.09.24-06.54.26:848][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/Phase_Idle_no_weapon]
+[2025.09.24-06.54.26:871][863]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon
+[2025.09.24-06.54.26:872][863]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Phase_Idle_no_weaponAAD6237A46E6E998E5472B96C516B0B8.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Idle_no_weapon.uasset'
+[2025.09.24-06.54.26:889][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.150 ms (total: 6.94 sec)
+[2025.09.24-06.54.26:933][863]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.54.26:933][863]LogContentValidation: Enabled validators:
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.54.26:933][863]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.54.26:933][863]AssetCheck: /Game/MainContent/Characters/Anims/Phase_Idle_no_weapon Validating asset
+[2025.09.24-06.54.35:049][195]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.35:077][195]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_90
+[2025.09.24-06.54.35:176][195]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.35:176][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.35:218][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.24-06.54.38:233][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.24-06.54.39:265][265]LogSlate: Window 'Save Content' being destroyed
+[2025.09.24-06.54.39:283][265]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.54.39:337][265]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MainContent/Characters/Anims/Phase_Idle1] ([1] browsable assets)...
+[2025.09.24-06.54.39:394][265]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/MainContent/Characters/Anims/Phase_Idle1.Phase_Idle1]
+[2025.09.24-06.54.39:394][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainContent/Characters/Anims/Phase_Idle1]
+[2025.09.24-06.54.39:416][265]LogSavePackage: Moving output files for package: /Game/MainContent/Characters/Anims/Phase_Idle1
+[2025.09.24-06.54.39:417][265]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Phase_Idle1369221334C967DB62298CAA1068E6C06.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Idle1.uasset'
+[2025.09.24-06.54.39:430][265]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.093 ms (total: 7.08 sec)
+[2025.09.24-06.54.39:476][265]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.54.39:476][265]LogContentValidation: Enabled validators:
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.54.39:476][265]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.54.39:476][265]AssetCheck: /Game/MainContent/Characters/Anims/Phase_Idle1 Validating asset
+[2025.09.24-06.54.41:174][330]LogSlate: Window 'Phase_Idle1' being destroyed
+[2025.09.24-06.54.41:197][330]LogSlate: Window 'Phase_Idle1' being destroyed
+[2025.09.24-06.54.41:210][330]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.41:210][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.41:222][330]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.41:222][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.41:262][330]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.41:262][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.41:304][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.24-06.54.42:325][397]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.24-06.54.42:329][397]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-06.54.42:330][397]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.24-06.54.42:330][397]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.24-06.54.42:331][397]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.080 ms (total: 8.677 ms)
+[2025.09.24-06.54.42:333][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-06.54.42:333][397]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.54.42:344][397]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.24-06.54.42:346][397]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.250 ms (total: 16.277 ms)
+[2025.09.24-06.54.42:346][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013252s)
+[2025.09.24-06.54.42:346][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.013277s)
+[2025.09.24-06.54.42:371][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.24-06.54.42:374][397]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.24-06.54.42:376][397]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-06.54.42:376][397]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-06.54.42:376][397]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.24-06.54.42:376][397]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.24-06.54.42:379][397]LogWorldPartition: Display: WorldPartition initialize took 2.671 ms (total: 400.187 ms)
+[2025.09.24-06.54.42:379][397]LogPlayLevel: PIE: World Init took: (0.004312s)
+[2025.09.24-06.54.42:380][397]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.24-06.54.42:380][397]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-06.54.42:380][397]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-06.54.42:380][397]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-06.54.42:380][397]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-06.54.42:380][397]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-06.54.42:382][397]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-06.54.42:409][397]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.24-06.54.42:409][397]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-06.54.42:409][397]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-06.54.42:409][397]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-06.54.42:410][397]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.09.24-06.54.42:410][397]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.09.24-06.54.42:412][397]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.09.24-06.54.42:412][397]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.09.24-06.54.42:412][397]LogInit: FAudioDevice initialized with ID 8.
+[2025.09.24-06.54.42:412][397]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_Combat'.
+[2025.09.24-06.54.42:413][397]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.24-06.54.42:426][397]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.24-06.54.42:429][397]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.23-23.54.42
+[2025.09.24-06.54.42:430][397]LogWorld: Bringing up level for play took: 0.003636
+[2025.09.24-06.54.42:432][397]LogOnline: OSS: Created online subsystem instance for: :Context_98
+[2025.09.24-06.54.42:437][397]PIE: Server logged in
+[2025.09.24-06.54.42:439][397]PIE: Play in editor total start time 0.109 seconds.
+[2025.09.24-06.54.42:523][398]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.24-06.54.49:501][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.54.49:501][895]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.54.49:501][895]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.24-06.54.49:501][895]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.54.49:502][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.49:502][895]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.24-06.54.49:504][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-06.54.49:512][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.54.49:539][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.54.49:539][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.24-06.54.49:539][895]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.09.24-06.54.49:541][895]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.09.24-06.54.49:549][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.24-06.54.49:596][896]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2025.09.24-06.54.55:053][221]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat
+[2025.09.24-06.54.55:053][221]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_91
+[2025.09.24-06.54.55:069][221]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_92
+[2025.09.24-06.54.55:084][221]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_92:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-06.54.55:431][221]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_93
+[2025.09.24-06.55.01:998][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.24-06.55.09:338][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.24-06.55.09:400][926]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Variant_Combat/Anims/ABP_Manny_Combat] ([2] browsable assets)...
+[2025.09.24-06.55.09:425][926]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat]
+[2025.09.24-06.55.09:425][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Anims/ABP_Manny_Combat]
+[2025.09.24-06.55.09:425][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Variant_Combat/Anims/ABP_Manny_Combat" FILE="../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset" SILENT=true
+[2025.09.24-06.55.09:465][926]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Anims/ABP_Manny_Combat
+[2025.09.24-06.55.09:465][926]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/ABP_Manny_Combat3373FCFF4AC6358133FF4484DE2D2440.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset'
+[2025.09.24-06.55.09:477][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.881 ms (total: 7.22 sec)
+[2025.09.24-06.55.09:521][926]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.24-06.55.09:522][926]LogContentValidation: Enabled validators:
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.24-06.55.09:522][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.24-06.55.09:522][926]AssetCheck: /Game/Variant_Combat/Anims/ABP_Manny_Combat Validating asset
+[2025.09.24-06.55.21:065][572]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.24-06.55.21:087][572]LogSlate: Window 'ABP_Manny_Combat' being destroyed
+[2025.09.24-06.55.21:093][572]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.55.21:093][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.55.21:107][572]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.55.21:107][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.55.21:152][572]LogWorld: UWorld::CleanupWorld for World_93, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.55.21:152][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.55.21:192][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.24-06.55.24:368][801]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.24-06.55.24:372][801]LogContentBundle: [Lvl_Combat(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-06.55.24:372][801]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' started...
+[2025.09.24-06.55.24:374][801]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0, PlaceSmallActorsUsingLocation = 1, PlacePartitionActorsUsingLocation = 1
+[2025.09.24-06.55.24:374][801]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Combat' took 1.286 ms (total: 9.964 ms)
+[2025.09.24-06.55.24:376][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-06.55.24:400][801]LogPlayLevel: Creating play world package: /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.55.24:412][801]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.24-06.55.24:414][801]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.204 ms (total: 18.482 ms)
+[2025.09.24-06.55.24:414][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012779s)
+[2025.09.24-06.55.24:414][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Variant_Combat/Lvl_Combat.Lvl_Combat to /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat (0.012850s)
+[2025.09.24-06.55.24:439][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.24-06.55.24:441][801]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Combat
+[2025.09.24-06.55.24:443][801]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Combat)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-06.55.24:443][801]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-06.55.24:443][801]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.24-06.55.24:443][801]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.24-06.55.24:445][801]LogWorldPartition: Display: WorldPartition initialize took 2.696 ms (total: 402.883 ms)
+[2025.09.24-06.55.24:446][801]LogPlayLevel: PIE: World Init took: (0.004349s)
+[2025.09.24-06.55.24:446][801]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.24-06.55.24:446][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-06.55.24:446][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-06.55.24:446][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-06.55.24:446][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-06.55.24:446][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-06.55.24:448][801]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-06.55.24:475][801]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty V2 Pro)
+[2025.09.24-06.55.24:475][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-06.55.24:475][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-06.55.24:475][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-06.55.24:475][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.24-06.55.24:475][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.24-06.55.24:478][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.24-06.55.24:478][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.24-06.55.24:478][801]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.24-06.55.24:478][801]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_Combat'.
+[2025.09.24-06.55.24:478][801]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.24-06.55.24:492][801]LogLoad: Game class is 'BP_CombatGameMode_C'
+[2025.09.24-06.55.24:495][801]LogWorld: Bringing World /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat up for play (max tick rate 0) at 2025.09.23-23.55.24
+[2025.09.24-06.55.24:495][801]LogWorld: Bringing up level for play took: 0.003781
+[2025.09.24-06.55.24:498][801]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2025.09.24-06.55.24:503][801]PIE: Server logged in
+[2025.09.24-06.55.24:506][801]PIE: Play in editor total start time 0.133 seconds.
+[2025.09.24-06.55.24:585][802]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.24-06.56.02:381][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.56.02:382][603]LogWorld: BeginTearingDown for /Game/Variant_Combat/UEDPIE_0_Lvl_Combat
+[2025.09.24-06.56.02:382][603]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.24-06.56.02:382][603]LogWorld: UWorld::CleanupWorld for Lvl_Combat, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-06.56.02:383][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.56.02:383][603]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Combat/UEDPIE_0_Lvl_Combat.Lvl_Combat
+[2025.09.24-06.56.02:385][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-06.56.02:392][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-06.56.02:416][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-06.56.02:416][603]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.24-06.56.02:416][603]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.24-06.56.02:418][603]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.24-06.56.02:426][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.09.24-06.56.02:480][604]LogPlayLevel: Display: Destroying online subsystem :Context_102

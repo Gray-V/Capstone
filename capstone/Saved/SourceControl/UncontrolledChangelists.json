@@ -24,7 +24,16 @@
 				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Input/IMC_Combat.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/Ninja_sword.uasset",
 				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/SK_Ninja_sword.uasset",
-				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/SKM_Ninja_sword.uasset"
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Mesh/SKM_Ninja_sword.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_01.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_02.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_Attack_03.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/MM_ChargedAttack.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_ChargedAttack.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_ComboAttack.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Anims/ABP_Manny_Combat.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/ARPG_Ninja/Demo/Weapon/Materials/weapon.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/capstone/Content/MainContent/Characters/Anims/Phase_Idle_no_weapon.uasset"
 			]
 		}
 	]
