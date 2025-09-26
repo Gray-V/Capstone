@@ -1445,3 +1445,121 @@ FPackageName: Skipped package /Game/ThirdPerson/MI_ThirdPersonColWay has a valid
 [2025.09.26-22.25.56:419][609]LogPlayLevel: Display: Destroying online subsystem :Context_8
 [2025.09.26-22.26.02:679][112]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Variant_Combat/Blueprints/BP_CombatCharacter.BP_CombatCharacter
 [2025.09.26-22.26.02:679][112]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.26-22.29.49:964][341]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1326.975342
+[2025.09.26-22.29.50:964][344]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-22.29.50:964][344]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1327.641724, Update Interval: 343.228851
+[2025.09.26-22.35.52:014][427]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1689.023560
+[2025.09.26-22.35.53:014][430]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-22.35.53:014][430]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1689.690674, Update Interval: 354.435242
+[2025.09.26-22.42.20:396][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2077.406250
+[2025.09.26-22.42.21:397][595]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-22.42.21:397][595]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2078.075684, Update Interval: 331.429169
+[2025.09.26-22.48.38:447][726]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2455.448486
+[2025.09.26-22.48.39:447][729]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-22.48.39:447][729]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2456.115479, Update Interval: 330.835907
+[2025.09.26-22.55.03:173][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2840.172852
+[2025.09.26-22.55.04:174][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-22.55.04:174][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2840.839844, Update Interval: 334.177673
+[2025.09.26-23.01.26:564][ 30]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3223.563477
+[2025.09.26-23.01.27:564][ 33]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.01.27:564][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3224.230225, Update Interval: 357.269806
+[2025.09.26-23.08.10:304][241]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3627.307129
+[2025.09.26-23.08.11:303][244]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.08.11:303][244]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3627.974365, Update Interval: 336.473877
+[2025.09.26-23.09.39:004][508]LogDerivedDataCache: C:/Users/liamo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.26-23.14.40:700][412]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4017.700439
+[2025.09.26-23.14.41:700][415]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.14.41:701][415]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4018.367920, Update Interval: 320.556061
+[2025.09.26-23.21.02:094][556]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4399.098145
+[2025.09.26-23.21.03:095][559]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.21.03:095][559]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4399.765625, Update Interval: 356.438477
+[2025.09.26-23.26.21:370][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2025.09.26-23.26.21:373][879]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Variant_Combat/Lvl_Combat' took 0.067
+[2025.09.26-23.26.21:373][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Variant_Combat/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2025.09.26-23.26.21:521][879]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Variant_Combat/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2025.09.26-23.26.21:521][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Blueprints/BP_CombatCharacter]
+[2025.09.26-23.26.21:578][879]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Variant_Combat/Blueprints/BP_CombatCharacter_Auto1
+[2025.09.26-23.26.21:578][879]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/BP_CombatCharacter_Auto1BD0AD095496244A4AC1293A596C34F84.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/Autosaves/Game/Variant_Combat/Blueprints/BP_CombatCharacter_Auto1.uasset'
+[2025.09.26-23.26.21:580][879]LogFileHelpers: Auto-saving content packages took 0.206
+[2025.09.26-23.27.39:832][679]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4796.814941
+[2025.09.26-23.27.39:959][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.27.39:959][690]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4796.929199, Update Interval: 354.096497
+[2025.09.26-23.34.22:488][342]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5199.498047
+[2025.09.26-23.34.22:602][351]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.34.22:602][351]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5199.599609, Update Interval: 307.278656
+[2025.09.26-23.34.26:731][671]LogEditorTransaction: Undo Move Node
+[2025.09.26-23.34.27:895][723]LogEditorTransaction: Undo Resize Node
+[2025.09.26-23.34.28:586][756]LogEditorTransaction: Undo Rename Node
+[2025.09.26-23.34.29:398][797]LogEditorTransaction: Undo Add Node
+[2025.09.26-23.38.24:986][161]LogScript: Warning: Attempted to access REINST_BP_CombatCharacter_C_0 via property Character, but REINST_BP_CombatCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_Combat_C /Engine/Transient.World_6:PersistentLevel.REINST_BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_Combat_C_0
+	Function /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat_C:ExecuteUbergraph_ABP_Manny_Combat:0024
+[2025.09.26-23.38.24:986][161]LogScript: Warning: Attempted to access REINST_BP_CombatCharacter_C_0 via property Character, but REINST_BP_CombatCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_Combat_C /Engine/Transient.World_2:PersistentLevel.REINST_BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_Combat_C_0
+	Function /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat_C:ExecuteUbergraph_ABP_Manny_Combat:0024
+[2025.09.26-23.38.25:017][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.09.26-23.39.59:509][923]LogScript: Warning: Attempted to access REINST_BP_CombatCharacter_C_0 via property Character, but REINST_BP_CombatCharacter_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_Combat_C /Engine/Transient.World_2:PersistentLevel.REINST_BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_Combat_C_0
+	Function /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat_C:ExecuteUbergraph_ABP_Manny_Combat:0024
+[2025.09.26-23.39.59:509][923]LogScript: Warning: Attempted to access BP_CombatCharacter_C_1 via property Character, but BP_CombatCharacter_C_1 is not valid (pending kill or garbage)
+	ABP_Manny_Combat_C /Engine/Transient.World_2:PersistentLevel.BP_CombatCharacter_C_1.CharacterMesh0.ABP_Manny_Combat_C_1
+	Function /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat_C:ExecuteUbergraph_ABP_Manny_Combat:0024
+[2025.09.26-23.39.59:509][923]LogScript: Warning: Attempted to access REINST_BP_CombatCharacter_C_1 via property Character, but REINST_BP_CombatCharacter_C_1 is not valid (pending kill or garbage)
+	ABP_Manny_Combat_C /Engine/Transient.World_6:PersistentLevel.REINST_BP_CombatCharacter_C_1.CharacterMesh0.ABP_Manny_Combat_C_1
+	Function /Game/Variant_Combat/Anims/ABP_Manny_Combat.ABP_Manny_Combat_C:ExecuteUbergraph_ABP_Manny_Combat:0024
+[2025.09.26-23.39.59:538][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.09.26-23.40.00:785][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.09.26-23.40.01:612][965]LogSlate: Window 'Save Content' being destroyed
+[2025.09.26-23.40.01:634][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-23.40.01:680][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Variant_Combat/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2025.09.26-23.40.01:831][965]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Variant_Combat/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2025.09.26-23.40.01:831][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/Variant_Combat/Blueprints/BP_CombatCharacter]
+[2025.09.26-23.40.01:888][965]LogSavePackage: Moving output files for package: /Game/Variant_Combat/Blueprints/BP_CombatCharacter
+[2025.09.26-23.40.01:889][965]LogSavePackage: Moving '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Saved/BP_CombatCharacter4997F0DD45C2F79C25E99D9FD0538651.tmp' to '../../../../../../Users/liamo/GitHub/1v1-Me/capstone/Content/Variant_Combat/Blueprints/BP_CombatCharacter.uasset'
+[2025.09.26-23.40.01:899][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 264.789 ms (total: 519.029 ms)
+[2025.09.26-23.40.01:945][965]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-23.40.01:945][965]LogContentValidation: Enabled validators:
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-23.40.01:945][965]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-23.40.01:946][965]AssetCheck: /Game/Variant_Combat/Blueprints/BP_CombatCharacter Validating asset
+[2025.09.26-23.40.20:673][870]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5557.700195
+[2025.09.26-23.40.20:814][878]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.40.20:814][878]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5557.822754, Update Interval: 330.500793
+[2025.09.26-23.41.42:874][158]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2025.09.26-23.41.42:879][158]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2025.09.26-23.41.42:908][158]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-23.41.42:908][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-23.41.43:004][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.26-23.45.15:567][314]LogFab: Display: Logging in using persist
+[2025.09.26-23.45.15:722][314]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.09.26-23.45.15:736][314]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.09.26-23.45.16:109][324]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: dfe...af0 Access[Expires: 2025.09.27-01.45.17 Remaining: 7200.85] Refresh[Expires: 2026-03-25T22:28:04.284Z Remaining: 15547367.28] State: Valid
+[2025.09.26-23.45.16:122][325]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.09.26-23.45.16:277][338]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.09.26-23.45.16:277][338]LogFab: Display: User logged in
+[2025.09.26-23.45.16:277][338]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.09.26-23.45.16:542][359]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-KU4mMEF0EUOKzh4hugzc_Q-zzGrLCNB5UKC75O5vhGTEA]
+[2025.09.26-23.46.40:902][601]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5937.915039
+[2025.09.26-23.46.41:902][604]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.46.41:902][604]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5938.582031, Update Interval: 306.090271
+[2025.09.26-23.47.13:682][702]LogSlate: Window 'Fab' being destroyed
+[2025.09.26-23.47.13:739][702]LogSlate: Window 'Fab' being destroyed
+[2025.09.26-23.47.15:185][826]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2025.09.26-23.47.15:185][826]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/library.
+[2025.09.26-23.48.05:174][ 63]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.26-23.49.29:184][848]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.26-23.49.29:348][849]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.09.26-23.49.29:419][850]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.26-23.49.29:511][852]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.26-23.49.30:050][872]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.26-23.50.30:965][665]LogSlate: Window 'C++ Header Preview' being destroyed
+[2025.09.26-23.50.31:009][665]LogSlate: Window 'C++ Header Preview' being destroyed
+[2025.09.26-23.50.34:238][881]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Variant_Combat/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2025.09.26-23.50.34:239][881]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.09.26-23.52.34:935][735]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6291.956543
+[2025.09.26-23.52.35:936][738]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-23.52.35:937][738]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6292.624512, Update Interval: 315.767700
