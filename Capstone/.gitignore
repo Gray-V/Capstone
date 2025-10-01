@@ -73,6 +73,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-CLAUDE.md
+../CLAUDE.md
 
 /capstone/Saved/webcache_4430
