@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/WBP_MainWidget.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/city.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/Button_Normal.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/Button_Hover.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/Button_Disable.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/Button_Active.uasset",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/Menu.umap",
+				"C:/Users/liamo/GitHub/1v1-Me/play/Content/UI/BP_Menu.uasset"
+			]
+		}
+	]
+}
