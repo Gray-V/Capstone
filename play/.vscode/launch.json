@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch UE5 Editor",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+            "args": [
+                "\"c:\\Users\\liamo\\GitHub\\Capstone\\play\\play.uproject\""
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "externalTerminal",
+            "symbolSearchPath": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Binaries/Win64;c:\\Users\\liamo\\GitHub\\Capstone\\play/Binaries/Win64",
+            "sourceFileMap": {
+                "/Engine/Source/": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Source/"
+            },
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Extras/VisualStudioDebugging/Unreal.natvis"
+        },
+        {
+            "name": "Launch UE5 Editor (DebugGame)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+            "args": [
+                "\"c:\\Users\\liamo\\GitHub\\Capstone\\play\\play.uproject\""
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "externalTerminal",
+            "symbolSearchPath": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Binaries/Win64;c:\\Users\\liamo\\GitHub\\Capstone\\play/Binaries/Win64",
+            "sourceFileMap": {
+                "/Engine/Source/": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Source/"
+            },
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Extras/VisualStudioDebugging/Unreal.natvis"
+        },
+        {
+            "name": "Attach to UE5 Editor",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processId": "${command:pickProcess}",
+            "symbolSearchPath": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Binaries/Win64;c:\\Users\\liamo\\GitHub\\Capstone\\play/Binaries/Win64",
+            "sourceFileMap": {
+                "/Engine/Source/": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Source/"
+            },
+            "visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Extras/VisualStudioDebugging/Unreal.natvis"
+        }
+    ]
+}

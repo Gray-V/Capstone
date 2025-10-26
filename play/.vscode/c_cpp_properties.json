@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "play Editor Win64 Development",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compileCommands": "${workspaceFolder}/.vscode/compileCommands_Default.json",
+            "configurationProvider": "ms-vscode.cpptools",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "windowsSdkVersion": "10.0.26100.0",
+            "includePath": [
+                "${workspaceFolder}/Intermediate/**",
+                "${workspaceFolder}/Plugins/**",
+                "${workspaceFolder}/Source/**"
+            ],
+            "defines": [
+                "UNICODE",
+                "_UNICODE",
+                "__UNREAL__",
+                "UBT_COMPILED_PLATFORM=Windows",
+                "WITH_ENGINE=1",
+                "WITH_UNREAL_DEVELOPER_TOOLS=1",
+                "WITH_APPLICATION_CORE=1",
+                "WITH_COREUOBJECT=1"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Source",
+                    "C:\\Program Files\\Epic Games\\UE_5.6/Engine/Plugins"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}

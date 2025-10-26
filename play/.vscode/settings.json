@@ -1,0 +1,70 @@
+{
+    "files.associations": {
+        "*.uproject": "json",
+        "*.uplugin": "json",
+        "*.h": "cpp",
+        "*.hpp": "cpp",
+        "*.inl": "cpp",
+        "*.inc": "cpp",
+        "*.usf": "hlsl",
+        "*.ush": "hlsl"
+    },
+    "files.exclude": {
+        "**/Binaries": true,
+        "**/Intermediate": true,
+        "**/Saved": true,
+        "**/.vs": true,
+        "**/DerivedDataCache": true,
+        "**/.vscode/browse.vc.db*": true
+    },
+    "search.exclude": {
+        "**/Binaries": true,
+        "**/Intermediate": true,
+        "**/Saved": true,
+        "**/.vs": true,
+        "**/DerivedDataCache": true,
+        "**/Content/**/*.uasset": true,
+        "**/Content/**/*.umap": true
+    },
+    "files.watcherExclude": {
+        "**/Binaries/**": true,
+        "**/Intermediate/**": true,
+        "**/Saved/**": true,
+        "**/.vs/**": true,
+        "**/DerivedDataCache/**": true
+    },
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    "C_Cpp.workspaceParsingPriority": "highest",
+    "C_Cpp.enhancedColorization": "enabled",
+    "C_Cpp.inactiveRegionOpacity": 0.5,
+    "C_Cpp.dimInactiveRegions": true,
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.loggingLevel": "Warning",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+    "editor.rulers": [
+        120
+    ],
+    "editor.wordWrap": "off",
+    "editor.trimAutoWhitespace": true,
+    "[cpp]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
+}
