@@ -1,5 +1,37 @@
 [
 	{
+		"file": "C:\\Users\\liamo\\GitHub\\Capstone\\combined\\Source\\combined\\AnimNotify_ComboWindowClose.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\liamo\\GitHub\\Capstone\\combined\\.vscode\\compileCommands_combined\\combined.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\liamo\\GitHub\\Capstone\\combined\\Source\\combined\\AnimNotify_ComboWindowClose.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\liamo\\GitHub\\Capstone\\combined\\.vscode\\compileCommands_combined\\combined.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\liamo\\GitHub\\Capstone\\combined\\Source\\combined\\AnimNotify_ComboWindowOpen.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\liamo\\GitHub\\Capstone\\combined\\.vscode\\compileCommands_combined\\combined.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\liamo\\GitHub\\Capstone\\combined\\Source\\combined\\AnimNotify_ComboWindowOpen.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\liamo\\GitHub\\Capstone\\combined\\.vscode\\compileCommands_combined\\combined.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\liamo\\GitHub\\Capstone\\combined\\Source\\combined\\CombatComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
