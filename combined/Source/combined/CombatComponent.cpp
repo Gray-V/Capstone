@@ -1,4 +1,6 @@
 // CombatComponent.cpp
+// Fill out your copyright notice in the Description page of Project Settings.
+
 #include "CombatComponent.h"
 #include "GameFramework/Character.h"
 #include "Animation/AnimInstance.h"
@@ -37,13 +39,15 @@ UAnimInstance* UCombatComponent::GetOwnerAnimInstance() const
 
 void UCombatComponent::LightAttack()
 {
-    // If we're in a combo window, queue the next attack
-    if (bComboWindowOpen && CurrentAttackType == EAttackType::Light)
+    // If we're currently attacking, buffer the input
+    if (bIsAttacking)
     {
         bShouldContinueCombo = true;
+        CurrentAttackType = EAttackType::Light;
+        UE_LOG(LogTemp, Log, TEXT("CombatComponent: Light attack input BUFFERED"));
     }
     // If we're not attacking, start a new combo
-    else if (!bIsAttacking)
+    else
     {
         CurrentComboIndex = 0;
         CurrentAttackType = EAttackType::Light;
@@ -74,8 +78,14 @@ void UCombatComponent::PerformLightAttack()
 
 void UCombatComponent::HeavyAttack()
 {
-    // Heavy attacks can interrupt or start fresh
-    if (!bIsAttacking || bComboWindowOpen)
+    // If we're currently attacking, buffer the input
+    if (bIsAttacking)
+    {
+        bShouldContinueCombo = true;
+        CurrentAttackType = EAttackType::Heavy;
+        UE_LOG(LogTemp, Log, TEXT("CombatComponent: Heavy attack input BUFFERED"));
+    }
+    else
     {
         CurrentComboIndex = 0;
         CurrentAttackType = EAttackType::Heavy;
@@ -118,13 +128,16 @@ void UCombatComponent::PlayAttackMontage(UAnimMontage* Montage)
     
     bIsAttacking = true;
     bShouldContinueCombo = false;
+    bComboWindowOpen = false;
     
     // Bind to montage end
     FOnMontageEnded MontageEndedDelegate;
     MontageEndedDelegate.BindUObject(this, &UCombatComponent::OnMontageEnded);
     AnimInstance->Montage_SetEndDelegate(MontageEndedDelegate, Montage);
     
-    UE_LOG(LogTemp, Log, TEXT("CombatComponent: Playing montage - Combo Index: %d"), CurrentComboIndex);
+    UE_LOG(LogTemp, Log, TEXT("CombatComponent: Playing montage - Combo Index: %d, Attack Type: %s"), 
+           CurrentComboIndex, 
+           CurrentAttackType == EAttackType::Light ? TEXT("Light") : TEXT("Heavy"));
 }
 
 void UCombatComponent::SetComboWindowOpen(bool bOpen)
@@ -135,8 +148,8 @@ void UCombatComponent::SetComboWindowOpen(bool bOpen)
            bOpen ? TEXT("OPENED") : TEXT("CLOSED"),
            bShouldContinueCombo ? TEXT("YES") : TEXT("NO"));
     
-    // When combo window opens, check if player wants to continue
-    if (bOpen && bShouldContinueCombo)
+    // When combo window CLOSES, check if player buffered an attack
+    if (!bOpen && bShouldContinueCombo)
     {
         CurrentComboIndex++;
         
@@ -182,8 +195,9 @@ void UCombatComponent::ResetCombo()
 
 void UCombatComponent::OnMontageEnded(UAnimMontage* Montage, bool bInterrupted)
 {
-    UE_LOG(LogTemp, Log, TEXT("CombatComponent: Montage ended - Interrupted: %s"), 
-           bInterrupted ? TEXT("YES") : TEXT("NO"));
+    UE_LOG(LogTemp, Log, TEXT("CombatComponent: Montage ended - Interrupted: %s, Should continue: %s"), 
+           bInterrupted ? TEXT("YES") : TEXT("NO"),
+           bShouldContinueCombo ? TEXT("YES") : TEXT("NO"));
     
     // If the combo didn't continue and we're done, reset everything
     if (!bShouldContinueCombo)
