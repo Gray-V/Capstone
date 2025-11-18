@@ -1,8 +1,5 @@
-# Visual Studio Code
-.vscode/
-.code-workspace
-
-# Unreal Engine
-Build/
-Saved/
-Script/
+/.vscode
+/Content
+/DerivedDataCache
+/Intermediate
+/Saved
